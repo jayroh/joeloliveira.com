@@ -2,7 +2,7 @@
 title: Cable Management For Web Workers
 author: Joel
 layout: post
-permalink: /2008/02/24/cable-management-for-web-workers
+permalink: /2008/02/24/cable-management-for-web-workers/index.html
 categories:
   - Misc
 tags:

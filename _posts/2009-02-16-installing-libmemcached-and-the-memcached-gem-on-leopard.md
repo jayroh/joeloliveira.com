@@ -2,7 +2,7 @@
 title: Installing libmemcached and the memcached gem on Leopard
 author: Joel
 layout: post
-permalink: /2009/02/16/installing-libmemcached-and-the-memcached-gem-on-leopard
+permalink: /2009/02/16/installing-libmemcached-and-the-memcached-gem-on-leopard/index.html
 categories:
   - Web Development
   - Whining

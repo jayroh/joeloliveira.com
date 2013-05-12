@@ -2,7 +2,7 @@
 title: WordPress hosted on XO Communications.
 author: Joel
 layout: post
-permalink: /2009/03/27/wordpress-hosted-on-xo-communications
+permalink: /2009/03/27/wordpress-hosted-on-xo-communications/index.html
 categories:
   - Web Development
   - Work

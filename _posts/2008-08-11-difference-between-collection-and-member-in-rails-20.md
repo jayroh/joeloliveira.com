@@ -2,7 +2,7 @@
 title: Difference between :collection and :member in Rails 2.0
 author: Joel
 layout: post
-permalink: /2008/08/11/difference-between-collection-and-member-in-rails-20
+permalink: /2008/08/11/difference-between-collection-and-member-in-rails-20/index.html
 categories:
   - Site Work
   - Web Development

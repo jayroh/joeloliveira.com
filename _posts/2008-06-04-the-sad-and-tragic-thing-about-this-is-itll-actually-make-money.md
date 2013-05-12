@@ -2,7 +2,7 @@
 title: 'The sad and tragic thing about this is &#8230; it&#8217;ll actually make money'
 author: Joel
 layout: post
-permalink: /2008/06/04/the-sad-and-tragic-thing-about-this-is-itll-actually-make-money
+permalink: /2008/06/04/the-sad-and-tragic-thing-about-this-is-itll-actually-make-money/index.html
 categories:
   - internet
   - Misc

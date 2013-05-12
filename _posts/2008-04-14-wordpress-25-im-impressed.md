@@ -2,7 +2,7 @@
 title: 'WordPress 2.5 &#8211; I&#8217;m impressed'
 author: Joel
 layout: post
-permalink: /2008/04/14/wordpress-25-im-impressed
+permalink: /2008/04/14/wordpress-25-im-impressed/index.html
 categories:
   - Site Work
   - Web Development

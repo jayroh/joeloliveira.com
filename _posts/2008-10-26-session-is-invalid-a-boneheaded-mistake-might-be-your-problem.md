@@ -2,7 +2,7 @@
 title: 'Session is Invalid &#8211; A Boneheaded Mistake Might be Your Problem'
 author: Joel
 layout: post
-permalink: /2008/10/26/session-is-invalid-a-boneheaded-mistake-might-be-your-problem
+permalink: /2008/10/26/session-is-invalid-a-boneheaded-mistake-might-be-your-problem/index.html
 categories:
   - Uncategorized
 tags:

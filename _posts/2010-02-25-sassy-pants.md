@@ -2,7 +2,7 @@
 title: Sassy-pants
 author: Joel
 layout: post
-permalink: /2010/02/25/sassy-pants
+permalink: /2010/02/25/sassy-pants/index.html
 categories:
   - Web Development
 ---

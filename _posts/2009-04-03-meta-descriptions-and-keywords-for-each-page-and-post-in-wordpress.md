@@ -2,7 +2,7 @@
 title: Meta descriptions and keywords for each page and post in WordPress
 author: Joel
 layout: post
-permalink: /2009/04/03/meta-descriptions-and-keywords-for-each-page-and-post-in-wordpress
+permalink: /2009/04/03/meta-descriptions-and-keywords-for-each-page-and-post-in-wordpress/index.html
 categories:
   - Web Development
   - Work

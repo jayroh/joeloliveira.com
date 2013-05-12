@@ -2,7 +2,7 @@
 title: 'From the Ruby Noob Dept: Issue(s) with <em>accepts_nested_attributes_for</em>'
 author: Joel
 layout: post
-permalink: /2010/02/27/from-the-ruby-noob-dept-accepts_nested_attributes_for-issues
+permalink: /2010/02/27/from-the-ruby-noob-dept-accepts_nested_attributes_for-issues/index.html
 categories:
   - Web Development
 ---

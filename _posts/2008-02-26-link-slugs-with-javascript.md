@@ -2,7 +2,7 @@
 title: Link Slugs with Javascript
 author: Joel
 layout: post
-permalink: /2008/02/26/link-slugs-with-javascript
+permalink: /2008/02/26/link-slugs-with-javascript/index.html
 categories:
   - Misc
   - Site Work

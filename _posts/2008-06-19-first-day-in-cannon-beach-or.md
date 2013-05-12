@@ -2,7 +2,7 @@
 title: First day in Cannon Beach, OR
 author: Joel
 layout: post
-permalink: /2008/06/19/first-day-in-cannon-beach-or
+permalink: /2008/06/19/first-day-in-cannon-beach-or/index.html
 categories:
   - Vacation
 tags:

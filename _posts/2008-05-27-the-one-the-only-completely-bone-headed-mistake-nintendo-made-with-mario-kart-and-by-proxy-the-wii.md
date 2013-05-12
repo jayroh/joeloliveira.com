@@ -5,7 +5,7 @@ title: >
 author: Joel
 layout: post
 permalink: >
-  /2008/05/27/the-one-the-only-completely-bone-headed-mistake-nintendo-made-with-mario-kart-and-by-proxy-the-wii
+  /2008/05/27/the-one-the-only-completely-bone-headed-mistake-nintendo-made-with-mario-kart-and-by-proxy-the-wii/index.html
 categories:
   - Misc
   - Whining

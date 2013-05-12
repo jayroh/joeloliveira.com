@@ -2,7 +2,7 @@
 title: 'ROFLCon &#8211; Day 1'
 author: Joel
 layout: post
-permalink: /2008/04/25/roflcon-day-1
+permalink: /2008/04/25/roflcon-day-1/index.html
 categories:
   - internet
 tags:

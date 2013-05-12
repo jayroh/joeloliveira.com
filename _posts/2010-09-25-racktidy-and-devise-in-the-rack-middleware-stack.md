@@ -2,7 +2,7 @@
 title: Rack::Tidy and Devise in the Rack Middleware Stack
 author: Joel
 layout: post
-permalink: /2010/09/25/racktidy-and-devise-in-the-rack-middleware-stack
+permalink: /2010/09/25/racktidy-and-devise-in-the-rack-middleware-stack/index.html
 categories:
   - Web Development
 ---

@@ -2,7 +2,7 @@
 title: 'The &#8220;hiatus&#8221; is over'
 author: Joel
 layout: post
-permalink: /2008/02/04/the-hiatus-is-over
+permalink: /2008/02/04/the-hiatus-is-over/index.html
 categories:
   - Misc
   - Site Work

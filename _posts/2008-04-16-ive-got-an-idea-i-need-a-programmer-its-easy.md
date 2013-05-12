@@ -2,7 +2,7 @@
 title: 'I&#8217;ve got an idea. I need a programmer. It&#8217;s easy!'
 author: Joel
 layout: post
-permalink: /2008/04/16/ive-got-an-idea-i-need-a-programmer-its-easy
+permalink: /2008/04/16/ive-got-an-idea-i-need-a-programmer-its-easy/index.html
 categories:
   - Web Development
   - Work

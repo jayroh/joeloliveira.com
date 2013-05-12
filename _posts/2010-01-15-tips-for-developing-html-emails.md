@@ -2,7 +2,7 @@
 title: Tips for developing HTML emails
 author: Joel
 layout: post
-permalink: /2010/01/15/tips-for-developing-html-emails
+permalink: /2010/01/15/tips-for-developing-html-emails/index.html
 categories:
   - Web Development
 ---

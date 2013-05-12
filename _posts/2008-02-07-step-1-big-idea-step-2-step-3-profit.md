@@ -2,7 +2,7 @@
 title: 'Contemplating the Journey From &#8220;Big Idea&#8221; to Success.'
 author: Joel
 layout: post
-permalink: /2008/02/07/step-1-big-idea-step-2-step-3-profit
+permalink: /2008/02/07/step-1-big-idea-step-2-step-3-profit/index.html
 categories:
   - Uncategorized
 tags:

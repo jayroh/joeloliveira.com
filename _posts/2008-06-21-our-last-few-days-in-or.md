@@ -2,7 +2,7 @@
 title: Our Last Few Days In OR.
 author: Joel
 layout: post
-permalink: /2008/06/21/our-last-few-days-in-or
+permalink: /2008/06/21/our-last-few-days-in-or/index.html
 categories:
   - Vacation
 tags:

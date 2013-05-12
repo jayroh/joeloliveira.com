@@ -2,7 +2,7 @@
 title: Slides available from Railsconf 2011
 author: Joel
 layout: post
-permalink: /2011/05/17/slides-available-from-railsconf-2011
+permalink: /2011/05/17/slides-available-from-railsconf-2011/index.html
 categories:
   - Rails
   - Web Development

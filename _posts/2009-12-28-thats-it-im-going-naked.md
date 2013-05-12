@@ -2,7 +2,7 @@
 title: 'That&#8217;s it.  I&#8217;m going naked.'
 author: Joel
 layout: post
-permalink: /2009/12/28/thats-it-im-going-naked
+permalink: /2009/12/28/thats-it-im-going-naked/index.html
 categories:
   - Site Work
   - Uncategorized

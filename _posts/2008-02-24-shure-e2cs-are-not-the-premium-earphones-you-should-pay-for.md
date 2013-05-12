@@ -2,7 +2,7 @@
 title: 'Shure E2C&#8217;s Are Not the Premium Earphones You Should Pay For'
 author: Joel
 layout: post
-permalink: /2008/02/24/shure-e2cs-are-not-the-premium-earphones-you-should-pay-for
+permalink: /2008/02/24/shure-e2cs-are-not-the-premium-earphones-you-should-pay-for/index.html
 categories:
   - Misc
 tags:

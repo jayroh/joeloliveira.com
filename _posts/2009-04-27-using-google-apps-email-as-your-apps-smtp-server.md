@@ -2,7 +2,7 @@
 title: 'Using Google Apps Email as Your App&#8217;s SMTP Server'
 author: Joel
 layout: post
-permalink: /2009/04/27/using-google-apps-email-as-your-apps-smtp-server
+permalink: /2009/04/27/using-google-apps-email-as-your-apps-smtp-server/index.html
 categories:
   - internet
   - Site Work
