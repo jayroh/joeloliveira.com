@@ -1,2 +1,10 @@
-name: Your New Jekyll Site
+url: http://joeloliveira.com
+name: My name is Joel
 pygments: true
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+description: >
+  I work on the web making stuff I like. I
+  live in Boston(-ish) with my wife and
+  our English Bulldog.
