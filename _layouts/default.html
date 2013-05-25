@@ -39,5 +39,95 @@
         {{ content }}
       </div>
     </section>
+
+    <section class="panel">
+      <header>
+        <a class="close" href="#">close</a>
+      </header>
+
+      <div class="contents">
+        <div class="about">
+          <a href="/">
+            <img src="/images/joel.png" alt="Joel Oliveira" />
+          </a>
+          <div class="bio">
+            <h1>Hi, I'm Joel.</h1>
+            <p>I am a software engineer in Boston working for <a href="http://thoughtbot.com">thoughtbot inc.</a> writing mostly ruby and rails.</p>
+          </div>
+        </div>
+
+        <div class="year">
+          <h2>Articles from 2013</h2>
+          <ul>
+            {% for post in site.posts %}
+              {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+              {% if year == "2013" %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="year">
+          <h2>Articles from 2012</h2>
+          <ul>
+            {% for post in site.posts %}
+              {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+              {% if year == "2012" %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="year">
+          <h2>Articles from 2011</h2>
+          <ul>
+            {% for post in site.posts %}
+              {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+              {% if year == "2011" %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="year">
+          <h2>Articles from 2010</h2>
+          <ul>
+            {% for post in site.posts %}
+              {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+              {% if year == "2010" %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="year">
+          <h2>Articles from 2009</h2>
+          <ul>
+            {% for post in site.posts %}
+              {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+              {% if year == "2009" %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="fin"></div>
+      </div>
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
+    <script src="/javascripts/main-min.js"></script>
+
+    <script>
+      var _gaq=[['_setAccount',''],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
   </body>
 </html>
