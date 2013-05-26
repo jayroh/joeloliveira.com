@@ -2,8 +2,7 @@
 title: Visualizing the difference between references_many and embeds_many in mongoid.
 author: Joel
 layout: post
-permalink: >
-  /2010/10/23/visualizing-the-difference-between-references_many-and-embeds_many-in-mongoid/index.html
+permalink: /2010/10/23/visualizing-the-difference-between-references_many-and-embeds_many-in-mongoid/index.html
 categories:
   - Web Development
 ---

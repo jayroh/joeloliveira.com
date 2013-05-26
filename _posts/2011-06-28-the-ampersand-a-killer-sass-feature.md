@@ -16,9 +16,15 @@ Earlier tonight [Adam Stacoviak][1] posted [something on his blog][2] about the 
 
 So – to boil this down … the *“&”* tells sass to pull the entire parent selector into where you place this beautiful little ampersand. The perfect use case that allowed me to dip my toes into this was with something like psuedo selectors for anchor tags. Example: 
 
+<script src="https://gist.github.com/1052807.js?file=ampersand-to-start.css"></script>
+
 Simple enough, right? Pretty awesome. As Adam noted in his blog post though, the *&* doesn’t belong solely at the beginning of your nested selector – you can tack it on at the end of that nested selector for further customization. Let’s say the example I have above needs a special edge-case for a particular page, or page state — like what if I’m logged in as an admin? Maybe our page(s) have a new “admin” class added to our body tag? We could go the route of adding something after our scss block specifying this edge case.
 
+<script src="https://gist.github.com/1052807.js?file=ampersand-can-go-wherever-pt1.css"></script>
+
 But why? Why bump this down below as almost an afterthought? Shouldn’t we have that grouped inside within the context of the anchor tag? We can do that with the magical ampersand:
+
+<script src="https://gist.github.com/1052807.js?file=ampersand-can-go-anywhere-pt2.css"></script>
 
 Pay attention to where that ampersand is. “Pre-pend this *body.admin* right before **all** of the parent selectors in this nested group”.
 
@@ -34,6 +40,8 @@ The element that needed styling to use Quicksand was always set to *visibility: 
 … and then this giant blob of garbage saying “these are hidden” … “until they get .wf-active” in the html tag. 
 
 Not ok. This needed to be dealt with. These edge-cases needed to show up right after the “normal” base selectors, not in a disparate location somewhere else in the CSS. I determined that the best solution would be to wrap these fonts and the associated states in mixins that could be used across our scss files. Here’s what I came up with: 
+
+<script src="https://gist.github.com/1052807.js?file=quicksand-mixin.css"></script>
 
 At first glance it doesn’t look like such a big deal, but when you consider there are hundreds of elements on the site getting this font-face applied to it, it ends up turning into a chore mostly consisting of a **lot** of copy and paste. Really study that gist – when that clicked, it was magic. 
 
