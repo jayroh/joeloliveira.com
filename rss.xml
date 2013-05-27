@@ -4,10 +4,10 @@ layout: nil
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>example.com</title>
-    <link>http://example.com/</link>
-    <atom:link href="http://example.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>Your Website</description>
+    <title>Joel Oliveira</title>
+    <link>http://www.joeloliveira.com/</link>
+    <atom:link href="http://www.joeloliveira.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>A software engineer in Boston working for thoughtbot inc. writing mostly ruby. He loves beer and bulldogs and his family.</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
