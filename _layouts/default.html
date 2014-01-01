@@ -39,7 +39,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,700italic,400,700|Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
   </head>
-  <body class="blog">
+  <body class="blog{% if page.id %} post{% endif %}">
     <!--[if lt IE 7]>
       <p class="chromeframe">
         You are using an outdated browser.
@@ -51,7 +51,7 @@
 
     <header class="global">
       <div class="container">
-        <h1><a href="/">Joel Oliveira <span>, sometimes @jayroh</span></a></h1>
+        <h1><a href="/">Joel<span>, sometimes @jayroh</span></a></h1>
         <a href="#" class="menu">menu</a>
       </div>
     </header>
@@ -74,7 +74,7 @@
           </a>
           <div class="bio">
             <h1>Hi, I'm Joel.</h1>
-            <p>I am a software engineer in Boston working for <a href="http://thoughtbot.com">thoughtbot</a> writing mostly ruby and rails.</p>
+            <p>I'm a software engineer in Boston working at an early stage startup. You can follow me on twitter at <a href="https://twitter.com/jayroh">@jayroh</a>.</p>
           </div>
         </div>
 
