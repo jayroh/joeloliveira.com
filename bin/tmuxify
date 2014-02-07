@@ -1,0 +1,26 @@
+#!/bin/zsh
+
+tmux has-session -t joel_blog 2>/dev/null
+
+if [ "$?" -eq 1 ] ; then
+  echo "Project not found. Creating and configuring."
+
+  # Set up primary window
+  tmux new-session -d -s joel_blog
+  tmux rename-window "vim"
+  tmux send-keys -t 1 'vim .' Enter
+  tmux split-window -h -p 25
+  tmux select-pane -t 1
+
+  # Let jekyll rip
+  tmux neww -n servers
+  tmux select-window -t :2
+  tmux send-keys -t 1 'jekyll serve --watch' Enter
+
+  # Head back to primary window
+  tmux select-window -t :1
+else
+  echo "Project found. Connecting."
+fi
+
+TERM=screen-256color-bce tmux attach-session -t joel_blog
