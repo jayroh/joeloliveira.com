@@ -5,7 +5,7 @@ layout: post
 permalink: /2014/02/06/maintain-style-with-rubocop.html
 ---
 
-Heard of [Rubocop](https://github.com/bbatsov/rubocop)? It's a static code analysis tool that enforces many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). Despite my initial hesitance &mdash; it felt a little "[cargo-cult'y](http://www.therailsway.com/2007/8/1/dangers-of-cargo-culting/)" &mdash; there are several reasons why I consider something like Rubocop valuable.
+Have you heard of this [Rubocop](https://github.com/bbatsov/rubocop) yet? It's a static code analysis tool that enforces many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). Despite my initial hesitance &mdash; it felt a little "[cargo-cult'y](http://www.therailsway.com/2007/8/1/dangers-of-cargo-culting/)" &mdash; there are several reasons why I consider something like Rubocop valuable and fantastic.
 
 As a development team grows the importance of keeping everyone moving in the same direction increases. The time spent discussing and commenting on pull-requests over innocuous details like trailing whitespace, tabs vs spaces, single vs double quotes, single line `{}` vs multi-line `do; end;` blocks. Over time it adds up. Why waste time when it can be automated?
 
