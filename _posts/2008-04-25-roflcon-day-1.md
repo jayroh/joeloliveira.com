@@ -41,7 +41,6 @@ Highlights from the first day:
 Lowlights:
 
 *   [Chuck Norris ][9]Facts guy didn’t seem like he really wanted to make too many friends there today. Overheard calling one of his fellow panelists a “downer”. Cmon dude.
-*   The insane introduction of RACE ISSUES into the first panel Q A. Why do people have to take something that’s supposed to be about “fun” and inject completely uneccessary social commentary? To sound contrary? Oh, that’s right – there’s always that ONE Debby Downer. Wuaahh Wuaaahhhhhhhh!
 *   Drinking Brawndo. Not my thing.
 
  [9]: http://www.chucknorrisfacts.com/
