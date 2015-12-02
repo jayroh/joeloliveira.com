@@ -6,5 +6,5 @@ redcarpet:
   extensions: [footnotes, no_intra_emphasis, fenced_code_blocks, autolink, strikethrough, superscript, with_toc_data]
 description: >
   I work on the web making stuff I like. I
-  live in Boston(-ish) with my wife and
-  our English Bulldog.
+  live in Boston(-ish) with my wife, my son,
+  and our two english bulldogs.

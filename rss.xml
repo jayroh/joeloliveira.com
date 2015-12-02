@@ -7,7 +7,7 @@ layout: null
     <title>Joel Oliveira</title>
     <link>http://www.joeloliveira.com/</link>
     <atom:link href="http://www.joeloliveira.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>A software engineer in Boston working for thoughtbot inc. writing mostly ruby. He loves beer and bulldogs and his family.</description>
+    <description>A software engineer in Boston writing mostly ruby. He loves beer and bulldogs and his family.</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
