@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
 gem 'albino'
-gem 's3_website'
 gem 'compass'
+gem 'jekyll'
+gem 'pygments.rb'
 gem 'redcarpet'
+gem 's3_website'
