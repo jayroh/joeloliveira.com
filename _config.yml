@@ -1,6 +1,6 @@
 url: http://joeloliveira.com
 name: My name is Joel
-pygments: true
+highlighter: pygments
 markdown: redcarpet
 redcarpet:
   extensions: [footnotes, no_intra_emphasis, fenced_code_blocks, autolink, strikethrough, superscript, with_toc_data]
