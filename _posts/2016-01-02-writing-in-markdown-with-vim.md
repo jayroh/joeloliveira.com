@@ -79,14 +79,47 @@ populated when the snippet is expanded.
 [snipmate]: https://github.com/msanders/snipmate.vim
 [UltiSnips]: https://github.com/SirVer/ultisnips
 
+### Preview Your Markdown
+
+A [tweet from Ches][] asking about previewing documents piqued my curiosity so I decided to look into it
+a little further. His suggestion to try the QuickLook plugin was met with failure, as he mentioned,
+as there's some weirdness when you try to launch from terminal. From finder it seems to work just
+fine but that defeats the purpose of being vim-driven, right? The next best thing would be to
+leverage a native mac app to get a look at what our rendered markdown files look like. The app I
+prefer is called [MacDown][] and has plenty of good features if you ever feel like dropping into a gui
+app instead of vim.
+
+MacDown comes with a cli command you can use to open documents from the terminal but I've found that
+it doesn't retain your preferences and switches to the defaults once you use it. Using OS X's `open`
+command, however, does retain your preferences. So, about getting vim to play nice with this? Not so
+hard:
+
+```vim
+map <leader>pre :w<cr>:silent! !open -a MacDown % > /dev/null &<cr>:redraw!<cr>
+```
+
+So `<leader>pre` will now open up MacDown with the current document so I can get a good look. Not
+bad!
+
+The changes to MacDown's preferences I've found useful:
+
+* *General > Put editor on the right*. I don't care much about the editor, so it gets shoved right.
+* *Rendering > Detect Jekyll front-matter*. For those of us jekyll users.
+
+[tweet from Ches]: https://twitter.com/ches/status/683999093597716480
+[MacDown]: http://macdown.uranusjr.com/
+
 ### Helpful Plugins
 
+* [goyo.vim][] plugin. A really nice distraction free writing plugin suggested by [Thomas][].
 * [tpope's markdown][] plugin. Arguably unecessary but provides some fenced codeblock extras.
 * [Chris Toomey's titlecase][] plugin. *Teach Vim about titlecase, with support for motions and text objects*
 * [Chris Toomey's quicklink][] plugin. This is nothing short of beautiful. *A Vim plugin for quickly
   looking up a topic in google and inserting the relevant link*. [Bonus video][] with some insight on these
   two plugins from Chris.
 
+[Thomas]: https://twitter.com/thegreatape
+[goyo.vim]: https://github.com/junegunn/goyo.vim
 [tpope's markdown]: https://github.com/tpope/vim-markdown
 [Chris Toomey's titlecase]: https://github.com/christoomey/vim-titlecase
 [Chris Toomey's quicklink]: https://github.com/christoomey/vim-quicklink
