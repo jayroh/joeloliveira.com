@@ -99,6 +99,27 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
     <script src="/javascripts/main-min.js"></script>
+    <script>
+      coded = "eCbv@4VjJC6.WC"
+      key = "lgB2tTU7HZjwdCvDsaYGQIkqef95Sx4hO0XAKmbNP3i6yVEpM8rnJcz1WLuFRo"
+      shift = coded.length
+      link = ""
+      email_me = $('.email-me')
+
+      if(email_me.length) {
+        for (i=0; i<coded.length; i++) {
+          if (key.indexOf(coded.charAt(i))==-1) {
+            ltr = coded.charAt(i)
+            link += (ltr)
+          } else {
+            ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+            link += (key.charAt(ltr))
+          }
+        }
+
+        email_me.replaceWith("<a href='mailto:"+link+"'>email me directly</a>");
+      }
+    </script>
 
     <script>
       var _gaq=[['_setAccount','UA-2546531-2'],['_trackPageview']];

@@ -3,10 +3,12 @@ layout: default
 title: joel oliveira
 ---
 
-{% for post in site.posts limit:3 %}
-  <article>
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <h3 class="date">{{ post.date | date_to_string }}</h3>
-    {{ post.content }}
-  </article>
+{% for post in site.posts limit:4 %}
+  {% if post.category != "shubox" %}
+    <article>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <h3 class="date">{{ post.date | date_to_string }}</h3>
+      {{ post.content }}
+    </article>
+  {% endif %}
 {% endfor %}
