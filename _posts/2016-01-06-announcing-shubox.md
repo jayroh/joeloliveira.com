@@ -1,9 +1,9 @@
 ---
 title: Announcing Shubox.io
-author: Joel
-layout: shubox-post
-permalink: /2016/01/06/announcing-shubox-io.html
 category: shubox
+author: Joel
+layout: post
+permalink: /2016/01/06/announcing-shubox-io.html
 ---
 
 I am legitimately *super* excited to share what I've been working on for these past few months.
