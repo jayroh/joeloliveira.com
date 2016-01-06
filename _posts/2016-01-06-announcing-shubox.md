@@ -38,9 +38,12 @@ I'm really excited to announce [shubox.io][] as the various aspects of its featu
 large part of my own personal development toolbox since I started writing code 17 years ago. File
 uploads are going nowhere, so [shubox.io][] is here to make it an easier, better experience.
 
-If you'd like to know more please do sign up for the newsletter, follow [@shuboxio][], or [me][], on
-twitter, or <span class="email-me">email me directly</span>. I'd *love* to hear your thoughts on
-what you'd like to see provided by a service like [shubox.io][].
+I should state that this is very much a beta for now as I'd love to get some feedback from anyone
+who would like to use it now, or soon *if* "feature X" is something most people would want out of
+the box. So, if you'd like to know more, or be comped a few domains to test with, please do sign up
+for the newsletter, follow [@shuboxio][], or [me][], on twitter, or <span class="email-me">email me
+directly</span>. I'd *love* to hear your thoughts on what you'd like to see provided by a service
+like [shubox.io][].
 
 [Shubox.io]: https://shubox.io
 [shubox.io]: https://shubox.io
