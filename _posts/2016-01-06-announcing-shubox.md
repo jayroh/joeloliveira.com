@@ -6,7 +6,7 @@ layout: post
 permalink: /2016/01/06/announcing-shubox-io.html
 ---
 
-I am legitimately *super* excited to share what I've been working on for these past few months.
+I am *super* excited to share what I've been working on for these past few months.
 [Shubox.io][] is a SaaS product that allows you to outsource all of your image and file uploads,
 directly to S3 - never touching your app-servers, process/resize/convert your images, and provide
 you the file data back, via webhooks, for all of your uploads.
@@ -36,17 +36,20 @@ grows past a certain point, [shubox.io][] is here to help remove those pain poin
 
 I'm really excited to announce [shubox.io][] as the various aspects of its feature set have been a
 large part of my own personal development toolbox since I started writing code 17 years ago. File
-uploads are going nowhere, so [shubox.io][] is here to make it an easier, better experience.
+uploads are going nowhere, so [shubox.io][] is here to make it an easier, better experience. 
 
-I should state that this is very much a beta for now as I'd love to get some feedback from anyone
-who would like to use it now, or soon *if* "feature X" is something most people would want out of
-the box. So, if you'd like to know more, or be comped a few domains to test with, please do sign up
-for the newsletter, follow [@shuboxio][], or [me][], on twitter, or <span class="email-me">email me
+There are a few things I've been working on in beta form as they roll out, so keep that in mind. If
+you'd like to know more about the features, the business, or have some feedback, please do sign up
+for [the newsletter][], follow [@shuboxio][], or me ([@jayroh][]), on twitter, or <span class="email-me">email me
 directly</span>. I'd *love* to hear your thoughts on what you'd like to see provided by a service
 like [shubox.io][].
 
-[Shubox.io]: https://shubox.io
-[shubox.io]: https://shubox.io
+If you're sold already - you can [sign up and start using it now][] 🎉😃!
+
+[sign up and start using it now]: https://shubox.io/sign_up?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app
+[Shubox.io]: https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app
+[shubox.io]: https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app
 [Heroku]: https://www.heroku.com/
-[@shuboxio]: https://twitter.com/shuboxio
-[me]: https://twitter.com/jayroh
+[@shuboxio]: https://twitter.com/shuboxio?utm_source=joeloliveira
+[@jayroh]: https://twitter.com/jayroh?utm_source=joeloliveira
+[the newsletter]: https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app#newsletter
