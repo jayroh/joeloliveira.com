@@ -38,6 +38,8 @@
     {% endif %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,700italic,400,700|Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
   </head>
   <body class="blog{% if page.id %} post{% endif %}">
     <!--[if lt IE 7]>
@@ -74,7 +76,13 @@
           </a>
           <div class="bio">
             <h1>Hi, I'm Joel.</h1>
-            <p>I'm a software engineer in Boston. You can follow me on twitter at <a href="https://twitter.com/jayroh">@jayroh</a>. I tweet about beer, bulldogs, and writing code.</p>
+            <p>
+              I'm a software engineer in Boston. You can follow me on twitter at
+              <a href="https://twitter.com/jayroh">@jayroh</a>. I usually tweet
+              about beer, bulldogs, writing code, and sometimes building
+              <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">shubox</a> and
+              <a href="https://www.thredded.com/" target="_blank">thredded</a>.
+            </p>
           </div>
         </div>
 
@@ -96,8 +104,6 @@
         <div class="fin"></div>
       </div>
     </section>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
     <script src="/javascripts/main-min.js"></script>
     <script>
       coded = "eCbv@4VjJC6.WC"

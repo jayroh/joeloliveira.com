@@ -4,18 +4,23 @@ layout: default
 <article>
   <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
   <h3 class="date">{{ page.date | date_to_string }}</h3>
+
   {{ content }}
 
-  {% if page.category == "shubox" %}
   <form action="//shubox.us12.list-manage.com/subscribe/post?u=a3a4a889a5f3ff0320a62c23b&amp;id=12b17c8654"
       method="post" id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form" class="validate shubox-signup"
       target="_blank" novalidate>
 
-    <h4>Want to know more about <a href="https://shubox.io">shubox.io</a>?</h4>
+    <h4>
+      I'm working on something called
+      <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">shubox.io</a>!
+    </h4>
 
     <p>
-      Sign up for the newsletter to recieve news, <br>
+      Want to know more about it? (Answer: "Yes. I do")<br>
+      <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">Check it</a>
+      out or sign up for my newsletter to recieve news, <br>
       announcements and other good bits!
     </p>
 
@@ -39,7 +44,6 @@ layout: default
       </div>
     </div>
   </form>
-  {% endif %}
 </article>
 
 <footer>

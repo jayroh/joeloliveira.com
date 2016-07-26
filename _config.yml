@@ -5,6 +5,6 @@ markdown: redcarpet
 redcarpet:
   extensions: [footnotes, no_intra_emphasis, fenced_code_blocks, autolink, strikethrough, superscript, with_toc_data]
 description: >
-  I work on the web making stuff I like. I
-  live in Boston(-ish) with my wife, my son,
-  and our two english bulldogs.
+  I work on the web making stuff (like <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">shubox</a>
+  and <a href="https://www.thredded.com">thredded</a>). I live in Boston(-ish)
+  with my wife, my son, and our two english bulldogs.
