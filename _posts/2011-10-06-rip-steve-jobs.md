@@ -3,6 +3,7 @@ title: RIP Steve Jobs, the Icon
 author: Joel
 layout: post
 permalink: /2011/10/06/rip-steve-jobs/index.html
+alias: /2011/10/06/rip-steve-jobs/rip-steve-jobs
 categories:
   - Misc
 ---

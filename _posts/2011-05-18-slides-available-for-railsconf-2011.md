@@ -3,6 +3,7 @@ title: Slides available for Railsconf 2011
 author: Joel
 layout: post
 permalink: /2011/05/18/slides-available-for-railsconf-2011/index.html
+alias: /2011/05/18/slides-available-for-railsconf-2011/slides-available-for-railsconf-2011
 categories:
   - Uncategorized
 ---

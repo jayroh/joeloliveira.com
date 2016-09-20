@@ -3,6 +3,7 @@ title: Goodbye Wordpress
 author: Joel
 layout: post
 permalink: /2013/05/26/goodbye-wordpress-hello-jekyll/index.html
+alias: /2013/05/26/goodbye-wordpress-hello-jekyll/goodbye-wordpress-hello-jekyll
 categories:
   - Misc
   - Site Work

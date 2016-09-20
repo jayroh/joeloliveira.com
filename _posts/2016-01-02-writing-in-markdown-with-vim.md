@@ -3,6 +3,7 @@ title: Writing in Markdown With Vim
 author: Joel
 layout: post
 permalink: /2016/01/02/writing-in-markdown-with-vim.html
+alias: /2016/01/02/writing-in-markdown-with-vim
 ---
 
 While writing [a post yesterday][] I noticed there were some gaps in my vim setup for when I'm

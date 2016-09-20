@@ -3,6 +3,7 @@ title: Maintain Style with Rubocop
 author: Joel
 layout: post
 permalink: /2014/02/06/maintain-style-with-rubocop.html
+alias: /2014/02/06/maintain-style-with-rubocop
 ---
 
 Have you heard of this [Rubocop](https://github.com/bbatsov/rubocop) yet? It's a static code analysis tool that enforces many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). Despite my initial hesitance &mdash; it felt a little "[cargo-cult'y](http://www.therailsway.com/2007/8/1/dangers-of-cargo-culting/)" &mdash; there are several reasons why I consider something like Rubocop valuable and fantastic.

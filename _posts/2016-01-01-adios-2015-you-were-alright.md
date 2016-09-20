@@ -3,6 +3,7 @@ title: Adios 2015. You were alright.
 author: Joel
 layout: post
 permalink: /2016/01/01/adios-2015-you-were-alright.html
+alias: /2016/01/01/adios-2015-you-were-alright
 ---
 
 I'll get right into it - 2015 was a good year. And, there's no way around this, it was because of

@@ -3,6 +3,7 @@ title: 'The ampersand &#038; a killer Sass feature'
 author: Joel
 layout: post
 permalink: /2011/06/28/the-ampersand-a-killer-sass-feature/index.html
+alias: /2011/06/28/the-ampersand-a-killer-sass-feature/the-ampersand-a-killer-sass-feature
 categories:
   - Sass
   - Web Development

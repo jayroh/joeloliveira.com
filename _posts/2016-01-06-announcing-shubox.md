@@ -4,6 +4,7 @@ category: shubox
 author: Joel
 layout: post
 permalink: /2016/01/06/announcing-shubox-io.html
+alias: /2016/01/06/announcing-shubox-io
 ---
 
 I am *super* excited to share what I've been working on for these past few months.

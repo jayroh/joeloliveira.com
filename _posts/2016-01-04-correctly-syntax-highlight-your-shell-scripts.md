@@ -3,6 +3,7 @@ title: Correctly Syntax Highlight Your Shell Scripts
 author: Joel
 layout: post
 permalink: /2016/01/05/make-vim-recognize-your-shell-scripts.html
+alias: /2016/01/05/make-vim-recognize-your-shell-scripts
 ---
 
 Not all shell scripts are created equal. You may have a `do-something.sh` script, or maybe you call

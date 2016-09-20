@@ -3,6 +3,7 @@ title: Taking a Break
 author: Joel
 layout: post
 permalink: /2013/11/04/taking-a-break/index.html
+alias: /2013/11/04/taking-a-break/taking-a-break
 ---
 
 There are, I'm sure, people wondering why on earth I would leave a job like
