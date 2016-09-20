@@ -3,10 +3,10 @@ title: Sassy-pants
 author: Joel
 layout: post
 permalink: /2010/02/25/sassy-pants/index.html
+alias: /2010/02/25/sassy-pants/sassy-pants
 categories:
   - Web Development
 ---
-# 
 
 ![][1]
 
@@ -28,14 +28,14 @@ I won’t go into the syntactic sugar that makes Sass so much fun – [John Long
  [6]: http://wiseheartdesign.com/articles/2010/01/22/structuring-a-sass-project/
  [7]: http://www.darowski.com/tracesofinspiration/2010/01/11/this-newbies-first-impressions-of-haml-and-sass/
 
-A few things I’ve bumped into, however, that bear mentioning here involve a few tools and code snippets that I went looking for as I went down that sassy path. The first being [a Textmate bundle for sass][8] I found to help out during rapid and uninterrupted development. The syntax highlights are, of course, fantastic, but the killer feature is easily the quick CSS generation keyboard shortcut. Command-R will parse and generate your CSS file right there from inside Textmate. If there are any issues a tool-tip will pop up with the error. If you switch over and reload your browser too fast to see the tool-tip you’ll see an unstyled page – a big honking notice that you were doin’ it wrong. 
+A few things I’ve bumped into, however, that bear mentioning here involve a few tools and code snippets that I went looking for as I went down that sassy path. The first being [a Textmate bundle for sass][8] I found to help out during rapid and uninterrupted development. The syntax highlights are, of course, fantastic, but the killer feature is easily the quick CSS generation keyboard shortcut. Command-R will parse and generate your CSS file right there from inside Textmate. If there are any issues a tool-tip will pop up with the error. If you switch over and reload your browser too fast to see the tool-tip you’ll see an unstyled page – a big honking notice that you were doin’ it wrong.
 
  [8]: http://github.com/adamstac/ruby-sass-tmbundle
 
 The few bits of code, of many, that I needed to find, or create, quickly before getting down to business – Eric Meyer’s reset stylesheet, and maybe a mixin or two that I’m quick to use in a pinch – like *.clearfix*.
 
     // Reset
-    
+
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -52,33 +52,33 @@ The few bits of code, of many, that I needed to find, or create, quickly before 
       :font-size 100%
       :vertical-align baseline
       :background transparent
-    
+
     body
       :line-height 1
-    
+
     ol, ul
       :list-style none
-    
+
     blockquote, q
       :quotes none
-    
+
     // remember to define focus styles!
-    :focus 
+    :focus
       :outline 0
-    
+
     ins
-      :text-decoration none 
+      :text-decoration none
     // remember to highlight inserts somehow!
-    
+
     del
       :text-decoration line-through
-    
+
     table
       :border-collapse collapse
       :border-spacing 0
-    
-    // ----------- Clearfix --------------- 
-    
+
+    // ----------- Clearfix ---------------
+
     .clearfix
       *display:                 inline-block
       &#038;:after
@@ -87,9 +87,9 @@ The few bits of code, of many, that I needed to find, or create, quickly before 
         height:                 0
         clear:                  both
         visibility:             hidden
-     
-    // ----------- Clearfix as mixin --------------- 
-    
+
+    // ----------- Clearfix as mixin ---------------
+
     =clearfix
       *display:                 inline-block
       &#038;:after
@@ -99,4 +99,5 @@ The few bits of code, of many, that I needed to find, or create, quickly before 
         clear:                  both
         visibility:             hidden
 
-Those are two solid examples of how easy it is to just jump right in. So give it a shot – \`sudo gem install haml\` to install what you need, and get to work playing.
+Those are two solid examples of how easy it is to just jump right in.
+So give it a shot – `sudo gem install haml` to install what you need, and get to work playing.

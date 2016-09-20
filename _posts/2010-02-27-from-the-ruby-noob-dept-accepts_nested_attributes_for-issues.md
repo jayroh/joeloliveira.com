@@ -3,7 +3,7 @@ title: 'From the Ruby Noob Dept: Issue(s) with <em>accepts_nested_attributes_for
 author: Joel
 layout: post
 permalink: /2010/02/27/from-the-ruby-noob-dept-accepts_nested_attributes_for-issues/index.html
-permalink: /2010/02/27/from-the-ruby-noob-dept-accepts_nested_attributes_for-issues/from-the-ruby-noob-dept-accepts_nested_attributes_for-issues
+alias: /2010/02/27/from-the-ruby-noob-dept-accepts_nested_attributes_for-issues/from-the-ruby-noob-dept-accepts_nested_attributes_for-issues
 categories:
   - Rails
   - Web Development
