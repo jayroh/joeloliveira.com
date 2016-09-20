@@ -3,6 +3,7 @@ title: Link Slugs with Javascript
 author: Joel
 layout: post
 permalink: /2008/02/26/link-slugs-with-javascript/index.html
+alias: /2008/02/26/link-slugs-with-javascript/link-slugs-with-javascript
 categories:
   - Misc
   - Site Work
@@ -14,7 +15,6 @@ tags:
   - ruby
   - seo
 ---
-# 
 
 Over at [Thredded][1] I am still using Rails 1.2.3 (I’m a little gun-shy to upgrade to 2.0) and, of course, felt that slugged links were necessary for both search engine optimization and making things like assessing site analytics a little easier. It doesn’t even need justification as it’s a matter of fact and necessity for any and all social platforms – blogging, forums, etc. With RoR 1.2.3 the best way to get your links *slugging* it out was to incorporate a plugin like [acts\_as\_sluggable][2]. It works like a charm, really, and I’ve never had any case where I needed extra functionality.
 

@@ -3,7 +3,7 @@ title: Day 2 in Oregon
 author: Joel
 layout: post
 permalink: /2008/06/20/day-2-in-oregon/index.html
-alias: /2008/06/20/day-2-in-oregon/trackback
+alias: [/2008/06/20/day-2-in-oregon/trackback, /2008/06/20/day-2-in-oregon/day-2-in-oregon]
 categories:
   - Vacation
 tags:

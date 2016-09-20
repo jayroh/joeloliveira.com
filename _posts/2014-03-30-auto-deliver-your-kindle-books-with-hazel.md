@@ -3,7 +3,7 @@ title: Auto-delivering Downloaded Kindle Books
 author: Joel
 layout: post
 permalink: /2014/03/30/auto-delivering-your-downloaded-kindle-books.html
-alias: /2014/03/30/auto-delivering-your-downloaded-kindle-books
+alias: [/2014/03/30/auto-delivering-your-downloaded-kindle-books, /2014/03/30/auto-deliver-your-kindle-books-with-hazel]
 ---
 
 I will often buy self-published programming books and send them to my kindle (and iPad, and iPhone) via email. Amazon's kindle platform will allow you to distribute documents (books) [to your devices via custom email addresses](https://www.amazon.com/gp/digital/fiona/manage#manageDevices). As mentioned I have three devices that I will often read from and need to send emails to those three with a downloaded mobi attachment. This is far from difficult but annoying enough that it could probably be automated. So I did.
