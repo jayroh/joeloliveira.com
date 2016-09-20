@@ -3,6 +3,7 @@ title: rvm, ree, nginx and phusion passenger
 author: Joel
 layout: post
 permalink: /2010/03/12/rvm-ree-nginx-and-phusion-passenger/index.html
+alias: /2010/03/12/rvm-ree-nginx-and-phusion-passenger/rvm-ree-nginx-and-phusion-passenger.html
 categories:
   - Web Development
 ---
