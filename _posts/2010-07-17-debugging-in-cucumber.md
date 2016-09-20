@@ -3,6 +3,7 @@ title: Debugging in Cucumber
 author: Joel
 layout: post
 permalink: /2010/07/17/debugging-in-cucumber/index.html
+alias: /2010/07/17/debugging-in-cucumber/debugging-in-cucumber
 categories:
   - Web Development
 ---

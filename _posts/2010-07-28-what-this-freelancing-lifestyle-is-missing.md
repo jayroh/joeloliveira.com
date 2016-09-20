@@ -3,6 +3,7 @@ title: What this freelancing lifestyle is missing
 author: Joel
 layout: post
 permalink: /2010/07/28/what-this-freelancing-lifestyle-is-missing/index.html
+alias: /2010/07/28/what-this-freelancing-lifestyle-is-missing/what-this-freelancing-lifestyle-is-missing
 categories:
   - Work
 ---
