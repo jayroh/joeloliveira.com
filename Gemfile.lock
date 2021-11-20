@@ -107,6 +107,7 @@ DEPENDENCIES
   albino
   compass
   jekyll
+  kramdown (>= 2.3.0)
   pygments.rb
   s3_website
   webrick (~> 1.7)
