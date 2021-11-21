@@ -2,7 +2,5 @@
 .jekyll-metadata
 _site
 .sass-cache
-s3_website.yml
 node_modules
 bin/followers
-t

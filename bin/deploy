@@ -1,3 +1,5 @@
 #!/bin/zsh
 
-s3_website push
+echo "Uploading ..."
+aws s3 cp _site s3://www.joeloliveira.com --recursive --quiet
+echo "... Done!"
