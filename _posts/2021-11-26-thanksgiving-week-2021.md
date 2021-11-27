@@ -22,7 +22,7 @@ What does that look like? A lot of reading. A lot of tinkering and research. And
 
 * A trip to [Comicopia] ended up with the first volumes of [Locke and Key], [The Black Monday Murders], and [Sweet Tooth].
 * Subscribing to [GoRails] - yay, Black Friday sales!
-* A meeting with [Emma] from All-Tru. Making a commitment to be nicer to myself for at least the next 8 months.
+* A meeting with [Emma] from All-Tru. Making a commitment to be nicer to myself for at least the next 8 months (at the least).
 * Learning a little more about Docker, `docker compose`, private networking, cloud hosting.
 
 Misc Thoughts
@@ -35,7 +35,7 @@ Misc Thoughts
 
 ***
 
-<a name="lock-key"></a>1: First volume, "Welcome to Lovecraft", is more brutal than I expected, but what else would I expect from Joe Hill (Stephen King's son)? Fun fact - the town of "Lovecraft" is just a renamed Nahant, MA, which, when you look at [the illustration of the place], is plainly evident.
+<a name="lock-key"></a>1: First volume, "Welcome to Lovecraft", is more brutal than I expected, but what else would I expect from Joe Hill (Stephen King's son)? Fun fact - the town of "Lovecraft" is just a renamed [Nahant, MA], which, when you look at [the illustration of the place], is plainly evident.
 
 [1]: #lock-key
 [Comicopia]: https://comicopia.com/
@@ -43,5 +43,8 @@ Misc Thoughts
 [Emma]: https://www.instagram.com/body.by.bond/
 [Jekyll]: https://jekyllrb.com/
 [Locke and Key]: https://lockekey.fandom.com/wiki/Welcome_to_Lovecraft
+[The Black Monday Murders]: https://imagecomics.com/comics/series/the-black-monday-murders
+[Sweet Tooth]: https://www.goodreads.com/series/54885-sweet-tooth
 [Hawkeye]: https://www.goodreads.com/book/show/16002136-hawkeye-volume-1
+[Nahant, MA]: https://nahant.org/
 [the illustration of the place]: https://static.wikia.nocookie.net/lockekey/images/2/2f/Lovecraft_Mass.jpg/revision/latest/scale-to-width-down/1000?cb=20210705235738
