@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+echo "Building ..."
+bundle exec jekyll build > /dev/null 2>&1
 echo "Uploading ..."
 aws s3 cp _site s3://www.joeloliveira.com --recursive --quiet
 echo "... Done!"
