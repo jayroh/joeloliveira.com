@@ -1,3 +1,4 @@
+plugins: ['jekyll-twitter-plugin']
 url: http://www.joeloliveira.com
 name: My name is Joel
 highlighter: pygments
