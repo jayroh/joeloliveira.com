@@ -1,5 +1,6 @@
 ---
 title: Weeknotes for the week ending Jan.14
+intro: The one where the year starts off slowly and I talk about tinkering with infrastructure automation.
 category: weeknotes
 author: Joel
 layout: post

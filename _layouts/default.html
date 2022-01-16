@@ -9,7 +9,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ page.title }}</title>
     <meta name="author" content="Joel Oliveira">
-    <meta name="description" content="A software engineer in Boston writing mostly ruby. He loves beer and bulldogs and his family.">
+    {% if page.intro %}
+    <meta name="description" content="{{ page.intro }}">
+    {% else %}
+      <meta name="description" content="A software engineer in Boston writing mostly ruby. He loves beer and bulldogs and his family.">
+    {% endif %}
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" type="application/rss+xml" title="Joel Oliveira &raquo; Feed" href="http://www.joeloliveira.com/rss.xml" />
     <link rel="stylesheet" href="/css/syntax.css">
@@ -47,15 +51,6 @@
     <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
   </head>
   <body class="blog{% if page.id %} post{% endif %}">
-    <!--[if lt IE 7]>
-      <p class="chromeframe">
-        You are using an outdated browser.
-        <a href="http://browsehappy.com/">Upgrade your browser today</a> or
-        <a href="http://www.google.com/chromeframe/?redirect=true">install Google
-          Chrome Frame</a> to better experience this site.
-      </p>
-    <![endif]-->
-
     <header class="global">
       <div class="container">
         <h1><a href="/">Joel<span>, (always one syllable), often "@jayroh"</span></a></h1>
@@ -90,7 +85,7 @@
           </div>
         </div>
 
-        {% assign years= "2016|2014|2013|2012|2011|2010|2009|2008|2007|2006" | split: "|" %}
+        {% assign years= "2022|2021|2016|2014|2013|2012|2011|2010|2009|2008|2007|2006" | split: "|" %}
         {% for year in years %}
           <div class="year">
             <h2>Articles from {{ year }}</h2>
