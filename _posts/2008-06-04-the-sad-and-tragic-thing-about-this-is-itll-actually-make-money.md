@@ -15,7 +15,7 @@ tags:
 
 Was just pointed to [an article at Wired][1] about this:
 
- [1]: http://blog.wired.com/27bstroke6/2008/06/service-lets-yo.html
+ [1]: https://blog.wired.com/27bstroke6/2008/06/service-lets-yo.html
 
 > If millions of Christians suddenly disappear from the face of the Earth as the opening act for Armageddon, Threat Level thinks most nonbelievers will be too busy freaking the hell out to check their e-mail. But if they do log in, now they can be treated to some post-Rapture needling from their missing friends and loved ones, courtesy of web startup YouveBeenLeftBehind.com.
 > 

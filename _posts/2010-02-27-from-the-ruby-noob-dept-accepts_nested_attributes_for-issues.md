@@ -11,8 +11,8 @@ categories:
 
 Finally took some time to jump in and refactor some nested forms at [Thredded][1] using Rails 2.3′s accepts\_nested\_attributes_for. Thanks to [Ryan Bates’ screencasts][2] on the topic it was fairly easy. A little code cleanup and everything worked as it should … other than *one thing*.
 
- [1]: http://thredded.com
- [2]: http://railscasts.com/episodes?search=nested forms
+ [1]: https://thredded.com
+ [2]: https://railscasts.com/episodes?search=nested forms
 
 **Can’t mass-assign these protected attributes**
 

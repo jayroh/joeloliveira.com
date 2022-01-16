@@ -12,8 +12,8 @@ You will need to allow an email address of yours to send the documents to kindle
 
 Tools necessary:
 
-1. Hazel. [Download and purchase it](http://www.noodlesoft.com/hazel). It's worth it.
-2. [sendemail](http://caspian.dotconf.net/menu/Software/SendEmail/). Install with homebrew - `brew install sendemail`. Done!
+1. Hazel. [Download and purchase it](https://www.noodlesoft.com/hazel). It's worth it.
+2. [sendemail](https://caspian.dotconf.net/menu/Software/SendEmail/). Install with homebrew - `brew install sendemail`. Done!
 
 Open up Hazel's preferences, select the Downloads directory, and add a new rule:
 

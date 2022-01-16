@@ -22,9 +22,9 @@
 #   ---
 #
 # Author: Thomas Mango
-# Site: http://thomasmango.com
-# Plugin Source: http://github.com/tsmango/jekyll_alias_generator
-# Site Source: http://github.com/tsmango/tsmango.github.com
+# Site: https://thomasmango.com
+# Plugin Source: https://github.com/tsmango/jekyll_alias_generator
+# Site Source: https://github.com/tsmango/tsmango.github.com
 # Plugin License: MIT
 
 module Jekyll

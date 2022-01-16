@@ -26,7 +26,7 @@ receive. But, once those parts are available – someone will prototype this up 
 fortune. Unfortunately that someone won’t be me. I’ll wait around with my credit card in hand,
 waiting for a chance to purchase it (for my Mother and for Sara).
 
- [1]: http://totalbeauty.com
+ [1]: https://totalbeauty.com
 
 The conversation popped into my head today because of [a post over at Mike Davidson’s blog about
 some of the big ideas that powered what he calls a “Slam-Dunk Startup”][2] – Youtube, Hot-or-Not,
@@ -34,7 +34,7 @@ Google and Amazon. One point he brings up is similar to the thought I had above,
 the idea but the ability to execute with the overwhelmingly difficult details of providing enough
 bandwidth, computing power and engineering know-how to hit it out of the park.
 
- [2]: http://www.mikeindustries.com/blog/archive/2008/02/slam-dunk-startups
+ [2]: https://www.mikeindustries.com/blog/archive/2008/02/slam-dunk-startups
 
 I often hear people say things like **“if only I thought of YouTube a year before YouTube did, I’d
 be rich”**, implying that given first-mover advantage, that person could create a company as great
@@ -53,6 +53,6 @@ The [Alex Tews][3], [Joshua Schacters][4] and [Gabe Riveras][5] of the world hav
 most tremendous respect from me. Odds are that I’ll never reach those heights, but the journey so
 far has been the fun part. We’ll wait and see.
 
- [3]: http://www.milliondollarhomepage.com/faq.php
- [4]: http://en.wikipedia.org/wiki/Joshua_Schachter
- [5]: http://www.techmeme.com/
+ [3]: https://www.milliondollarhomepage.com/faq.php
+ [4]: https://en.wikipedia.org/wiki/Joshua_Schachter
+ [5]: https://www.techmeme.com/

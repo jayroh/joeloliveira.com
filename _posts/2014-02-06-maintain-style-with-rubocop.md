@@ -6,7 +6,7 @@ permalink: /2014/02/06/maintain-style-with-rubocop.html
 alias: /2014/02/06/maintain-style-with-rubocop
 ---
 
-Have you heard of this [Rubocop](https://github.com/bbatsov/rubocop) yet? It's a static code analysis tool that enforces many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). Despite my initial hesitance &mdash; it felt a little "[cargo-cult'y](http://www.therailsway.com/2007/8/1/dangers-of-cargo-culting/)" &mdash; there are several reasons why I consider something like Rubocop valuable and fantastic.
+Have you heard of this [Rubocop](https://github.com/bbatsov/rubocop) yet? It's a static code analysis tool that enforces many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). Despite my initial hesitance &mdash; it felt a little "[cargo-cult'y](https://www.therailsway.com/2007/8/1/dangers-of-cargo-culting/)" &mdash; there are several reasons why I consider something like Rubocop valuable and fantastic.
 
 As a development team grows the importance of keeping everyone moving in the same direction increases. The time spent discussing and commenting on pull-requests over innocuous details like trailing whitespace, tabs vs spaces, single vs double quotes, single line `{}` vs multi-line `do; end;` blocks. Over time it adds up. Why waste time when it can be automated?
 
@@ -55,12 +55,12 @@ end
 
 At this point you wouldn't have to think about running rubocop as it acts as a part of your test suite.
 
-Last thought - it speaks volumes when a language adopts this idea as a core part of its feature-set. Just [look at Go](http://blog.golang.org/go-fmt-your-code). 
+Last thought - it speaks volumes when a language adopts this idea as a core part of its feature-set. Just [look at Go](https://blog.golang.org/go-fmt-your-code). 
 
 So what are you waiting for? Try it out and [let me know what you think](https://twitter.com/jayroh)!
 
 * * *
 
-^1 A worthwhile read regarding this - [you are not your code](http://sstephenson.us/posts/you-are-not-your-code).
+^1 A worthwhile read regarding this - [you are not your code](https://sstephenson.us/posts/you-are-not-your-code).
 
 ^2 It may be a good idea to start by create a feature branch tackling *just* the task of cleaning up a single section of a codebase. Start with one bucket - like your models for example.

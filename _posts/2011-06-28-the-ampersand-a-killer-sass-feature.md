@@ -12,8 +12,8 @@ categories:
 
 Earlier tonight [Adam Stacoviak][1] posted [something on his blog][2] about the killer feature that is the ampersand in the Sass CSS meta-language. Go read it immediately. Go. I’ll wait here.
 
- [1]: http://twitter.com/adamstac
- [2]: http://adamstacoviak.com/posts/referencing-parent-selectors/
+ [1]: https://twitter.com/adamstac
+ [2]: https://adamstacoviak.com/posts/referencing-parent-selectors/
 
 So – to boil this down … the *“&”* tells sass to pull the entire parent selector into where you place this beautiful little ampersand. The perfect use case that allowed me to dip my toes into this was with something like psuedo selectors for anchor tags. Example: 
 
@@ -50,10 +50,10 @@ As a bonus, consider this – originally I didn’t realize I needed to target I
 
 That’s but one example using the Google font-loader. Using this in conjunction with the conditionally set IE-related classes, or a CSS3 feature like “borderimage” (which I used the hell out of for Design*Sponge), has been a god-send. Keeping everything tidy inside the scope of our nested selectors keeps things manageable and easy to find. There’s no need to go searching for similar selectors across your CSS file – because it’s right *there*, *right next* to your normal, base selector.
 
- [3]: http://www.modernizr.com/
- [4]: http://code.google.com/apis/webfonts/docs/webfont_loader.html
- [5]: http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
- [6]: http://www.fontsquirrel.com/fonts/Quicksand
- [7]: http://www.designsponge.com/
- [8]: http://paulirish.com/2009/fighting-the-font-face-fout/
- [9]: http://s3.amazonaws.com/kym-assets/entries/icons/original/000/005/627/untitled.JPG "not ok"
+ [3]: https://www.modernizr.com/
+ [4]: https://code.google.com/apis/webfonts/docs/webfont_loader.html
+ [5]: https://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+ [6]: https://www.fontsquirrel.com/fonts/Quicksand
+ [7]: https://www.designsponge.com/
+ [8]: https://paulirish.com/2009/fighting-the-font-face-fout/
+ [9]: https://s3.amazonaws.com/kym-assets/entries/icons/original/000/005/627/untitled.JPG "not ok"

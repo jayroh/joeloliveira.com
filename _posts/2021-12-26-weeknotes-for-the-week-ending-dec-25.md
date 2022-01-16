@@ -30,7 +30,7 @@ Watching:
 Listening:
 
 * A very well put together episode on "Death Sex and Money" about [how weight and body size has affected romantic relationships](https://www.wnycstudios.org/podcasts/deathsexmoney/episodes/weight-love-fat-death-sex-money). If you know me, you probably know that my "_corpus_" has been a boulder I have carried with me for most of my life. In general, Anna Sale and the whole DSM podcast do an excellent job, consistently, putting out episodes around the lesser discussed aspects of life (hence: death, sex, money) so I enthusiastically endorse this whole pod.
-* [Maintenance Phase](https://www.nytimes.com/2021/09/09/dining/wellness-industrial-complex-maintenance-phase.html). A [podcast](http://maintenancephase.com/) that was recommended at the tail end of that DSM episode ☝.
+* [Maintenance Phase](https://www.nytimes.com/2021/09/09/dining/wellness-industrial-complex-maintenance-phase.html). A [podcast](https://maintenancephase.com/) that was recommended at the tail end of that DSM episode ☝.
 
 Enjoying:
 

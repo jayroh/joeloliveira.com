@@ -18,7 +18,7 @@ tags:
 
 [![Route 66][2]][2]
 
- []: http://www.flickr.com/photos/23336262@N04/2239705528/
+ []: https://www.flickr.com/photos/23336262@N04/2239705528/
 
 Has it really been (well over) a year since I last posted a **single** thing on this weblog? It goes without saying that that is a crying shame. Woefully neglected is too soft a phrase to use when it comes to signifying how little I’ve done with joeloliveira.com in the past year and a half. This site turned into an abandoned wasteland – deserted and stagnant.
 
@@ -32,7 +32,7 @@ So far, so good. I’m excited. I am already engaged with a local ad agency help
 
 To give you an idea as to what types of things I’m involved with – The past year and change I’ve actually been encouraging and helping Sara with [her own weblog][2]. Have I not told you about it yet? For shame! [Go visit and take a look][2] at the wonderful work she’s been doing. In addition to playing occasional tech-support and copy editor for Sara I’ve been putting in most spare hours working on my own project(s). Instead of writing about it – I’ve been trying to DO it. Think it’s difficult to post on a blog every day? Try doing it when you’re attempting to master new tools in addition to supporting the users who are helping drive your new project. It’s not easy.
 
- [2]: http://bitbythebeautybug.com
+ [2]: https://bitbythebeautybug.com
 
 The ultimate end-game will be to afford myself the time to work on those few previously mentioned projects that have grown over the past few years to something I’m hoping could blossom into something beyond “pet project” status. Once I’m a little more comfortable with their status I will post announcements here.
 

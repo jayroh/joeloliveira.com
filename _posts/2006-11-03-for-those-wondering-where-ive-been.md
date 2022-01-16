@@ -10,4 +10,4 @@ categories:
 
 ![mmmmmMoustache!][1]I’ve been holed up in my cave, growing a beard.
 
- [1]: http://static.flickr.com/111/287784414_df4f6a7b33_m.jpg
+ [1]: https://static.flickr.com/111/287784414_df4f6a7b33_m.jpg

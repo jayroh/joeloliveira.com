@@ -21,8 +21,8 @@ get things to work.
 First, [a plugin to disable canonical URL redirection][1].  Second, [a hack to wp-settings.php that
 circumvents the XO php configuration’s not having *$\_SERVER['REQUEST\_URI']*][2].
 
- [1]: http://wordpress.org/support/topic/233098?replies=10
- [2]: http://wordpress.org/support/topic/194305?replies=6
+ [1]: https://wordpress.org/support/topic/233098?replies=10
+ [2]: https://wordpress.org/support/topic/194305?replies=6
 
 **Update:** the second hack will break the non-admin part of the site in the context of the current
 site I’ve been working on.  So your mileage may vary.

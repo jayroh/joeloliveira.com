@@ -27,17 +27,17 @@ Also, the irony doesn’t escape me that we needed to install ruby, “ruby-full
 
 **Install rvm**. It’s as easy as [following the instructions at the RVM site][1]. I chose to go the gem route. Follow the instructions as are given and things will be fine. The only hiccups I had involved some libraries that are taken care of in the above package installs.
 
- [1]: http://rvm.beginrescueend.com/rvm/install/
+ [1]: https://rvm.beginrescueend.com/rvm/install/
 
 **Install the versions of ruby you’d like**. *rvm install 1.8.6,1.8.7-head,ree,1.9.1*
 
 According to fellow boston.rb’ist @[techiferous][2] we use 1.8.7-head, because
 
- [2]: http://twitter.com/techiferous
+ [2]: https://twitter.com/techiferous
 
 > [#][3] Rails 3 needs Ruby 1.8.7. Use rvm to manage Ruby versions. Do “rvm ruby-1.8.7-head” NOT ruby-1.8.7-p249 (broken gems).
 
- [3]: http://twitter.com/techiferous/status/8751925362
+ [3]: https://twitter.com/techiferous/status/8751925362
 
 After some time compiling and wrangling everything together you should have a handful of different rubies at your disposal. Please visit the rvm site for examples, use cases and general information. It’s worth your time. 
 
@@ -52,4 +52,4 @@ I chose to customize my own install and selected the second option. Do whatever 
 
 Last but not least, go thank [Wayne Seguin][4] for the work on RVM. Amazing work!
 
- [4]: http://twitter.com/wayneeseguin
+ [4]: https://twitter.com/wayneeseguin

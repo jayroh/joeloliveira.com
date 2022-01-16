@@ -10,7 +10,7 @@ While writing [a post yesterday][] I noticed there were some gaps in my vim setu
 authoring a markdown file so here are a few tips for polishing up your markdown experience in vim,
 specifically for jekyll blogs.
 
-[a post yesterday]: http://www.joeloliveira.com/2016/01/01/adios-2015-you-were-alright.html
+[a post yesterday]: https://www.joeloliveira.com/2016/01/01/adios-2015-you-were-alright.html
 
 ### Front Matter
 
@@ -30,7 +30,7 @@ After, it looks a little less odd.
 
 ![jekyll front matter after](https://www.evernote.com/l/AUp8HJ6J_C9PibrDKDp7iEKyB16O5W_FAmkB/image.png)
 
-[helpful blog post]: http://www.codeography.com/2010/02/20/making-vim-play-nice-with-jekylls-yaml-front-matter.html
+[helpful blog post]: https://www.codeography.com/2010/02/20/making-vim-play-nice-with-jekylls-yaml-front-matter.html
 
 ### Textwidth
 
@@ -61,9 +61,9 @@ remember the exact syntax for, or are slightly awkward to type. For me it's more
 
 ```
 snippet a
-	[${1:text}](${2:http://})
+	[${1:text}](${2:https://})
 snippet img
-	![${1:alt}](${2:http://})
+	![${1:alt}](${2:https://})
 snippet front
 	---
 	title: ${1:Title}
@@ -108,7 +108,7 @@ The changes to MacDown's preferences I've found useful:
 * *Rendering > Detect Jekyll front-matter*. For those of us jekyll users.
 
 [tweet from Ches]: https://twitter.com/ches/status/683999093597716480
-[MacDown]: http://macdown.uranusjr.com/
+[MacDown]: https://macdown.uranusjr.com/
 
 ### Helpful Plugins
 

@@ -19,7 +19,7 @@ What the hell is ROFLCon? You know the cats, with the funny captions? Leroy Jenk
 
 The first day of the convention felt organized, but not quite the well oiled machine I’ve experienced at other seminars or cons. It’s not quite reasonable to expect things are going to be pristine considering (I think) it’s being put together by college undergrads, mostly. Was it a better job than I could do? DEFINITELY. I mean they got *[TRON GUY][1]* to show up!
 
- [1]: http://www.tronguy.net/
+ [1]: https://www.tronguy.net/
 
 Highlights from the first day:
 
@@ -30,22 +30,22 @@ Highlights from the first day:
 *   Lolcats panel was pretty good. Lots of great one-liners (and some rather insane [in a good way] people).
 *   Running into [John Eckman][8] – another Molecular Alumni – at the keynote. I KNEW it was him!
 
- [2]: http://marmadukeexplained.blogspot.com/
- [3]: http://oneredpaperclip.blogspot.com/
- [4]: http://dieselsweeties.com
- [5]: http://www.flickr.com/photos/bre/2322667188/
- [6]: http://laughingsquid.com/
- [7]: http://amplifier.com
- [8]: http://www.openparenthesis.org/
+ [2]: https://marmadukeexplained.blogspot.com/
+ [3]: https://oneredpaperclip.blogspot.com/
+ [4]: https://dieselsweeties.com
+ [5]: https://www.flickr.com/photos/bre/2322667188/
+ [6]: https://laughingsquid.com/
+ [7]: https://amplifier.com
+ [8]: https://www.openparenthesis.org/
 
 Lowlights:
 
 *   [Chuck Norris ][9]Facts guy didn’t seem like he really wanted to make too many friends there today. Overheard calling one of his fellow panelists a “downer”. Cmon dude.
 *   Drinking Brawndo. Not my thing.
 
- [9]: http://www.chucknorrisfacts.com/
+ [9]: https://www.chucknorrisfacts.com/
 
 For a lot more coverage and a lot of great photos – visit the [ROFLCon][10] website. There’s way more there than I could even begin to to write about here. Also, you could [follow me on Twitter][11] for running quotes and random commentary. I guess I might be doing something right – 5′ish people I don’t know started following me today. Guess that’s good? Until tomorrow – kkthxbai.
 
- [10]: http://roflcon.org
- [11]: http://twitter.com/jayroh
+ [10]: https://roflcon.org
+ [11]: https://twitter.com/jayroh

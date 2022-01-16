@@ -11,7 +11,7 @@ categories:
 
 *This one gave me fits for a little bit not too long ago, [and crept up on the mongoid list the other day][1].*
 
- [1]: http://groups.google.com/group/mongoid/browse_thread/thread/6e21edf44293f12
+ [1]: https://groups.google.com/group/mongoid/browse_thread/thread/6e21edf44293f12
 
 One of the greatest things about mongo in what it does is the idea of embedding documents into other documents – at times removing the need for relations where it makes sense. The classic example being Blog posts and comments within that post. Why not just shove the comments directly inside of the blog posts’ documents? It’s faster and makes sense – these are just documents right? So let’s treat them as such.
 
@@ -19,7 +19,7 @@ But on occasion the need for relations remains. On a toy app I’ve begun rewrit
 
 I think part of it, at least for me, is the **idea** of embedding gets in the way of how you perceive this getting stored within the mongo document(s). Take [the example at the mongoid documentation][2] under “Relational Associations” 
 
- [2]: http://mongoid.org/docs/associations/
+ [2]: https://mongoid.org/docs/associations/
 
 ```
 class Person

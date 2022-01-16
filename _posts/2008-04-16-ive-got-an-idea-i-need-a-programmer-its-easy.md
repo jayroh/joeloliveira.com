@@ -16,7 +16,7 @@ tags:
 
 There’s [a really great post at this blog][1] about how the writer, a developer named Ethan, was approached by some acquaintances with regard to a big idea they needed help in implementing. The usual banter ensues, in which Ethan discusses the terms by which he expects to be compensated. Whether in equity or at an hourly rate of payment.
 
- [1]: http://codeclimber.blogspot.com/2008/04/all-i-need-is-programmer.html
+ [1]: https://codeclimber.blogspot.com/2008/04/all-i-need-is-programmer.html
 
 The response from his pitch-man?
 

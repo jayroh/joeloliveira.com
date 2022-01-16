@@ -58,4 +58,4 @@ And for the rest of you/us (that would be me) that are still sticking with Ruby 
 answer in the form of [the action\_mailer\_tls gem][1]. Following the readme will get you to right
 where you want to be – shoveling all the mail you would like into the ether that is the interwebs.
 
-[1]: http://github.com/openrain/action_mailer_tls/tree/master
+[1]: https://github.com/openrain/action_mailer_tls/tree/master

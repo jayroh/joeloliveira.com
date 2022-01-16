@@ -60,12 +60,12 @@ is no perscriptive for life and nothing works for everyone. If you're reading th
 similarly I recommend exploring your options and, above all, be honest with, and kind *to*,
 yourself.
 
-[Joseph Goldstein]: http://www.dharma.org/joseph-goldstein
-[Day One]: http://dayoneapp.com
+[Joseph Goldstein]: https://www.dharma.org/joseph-goldstein
+[Day One]: https://dayoneapp.com
 [headspace]: https://www.headspace.com/
-[10% Happier]: http://www.changecollective.com/10-percent-happier/
-[Dan Harris]: http://abcnews.go.com/Author/Dan_Harris
-[10% Happier]: http://www.amazon.com/10-Happier-Self-Help-Actually-Works-A/product-reviews/0062265423
+[10% Happier]: https://www.changecollective.com/10-percent-happier/
+[Dan Harris]: https://abcnews.go.com/Author/Dan_Harris
+[10% Happier]: https://www.amazon.com/10-Happier-Self-Help-Actually-Works-A/product-reviews/0062265423
 
 ### Furthermore
 
@@ -82,11 +82,11 @@ Happy new year!
 
 This year's favorites.
 
-Movies: a tie - *[Mad Max: Fury Road](http://www.rottentomatoes.com/m/mad_max_fury_road/)* &amp;
-*[Sicario](http://www.rottentomatoes.com/m/Sicario)*.
+Movies: a tie - *[Mad Max: Fury Road](https://www.rottentomatoes.com/m/mad_max_fury_road/)* &amp;
+*[Sicario](https://www.rottentomatoes.com/m/Sicario)*.
 
-Book: *[Station Eleven](http://www.amazon.com/gp/product/B00J1IQUYM/ref=dp-kindle-redirect?ie=UTF8&btkr=1)*.
+Book: *[Station Eleven](https://www.amazon.com/gp/product/B00J1IQUYM/ref=dp-kindle-redirect?ie=UTF8&btkr=1)*.
 
-Tv: *[Fargo](http://www.rottentomatoes.com/tv/fargo/)*.
+Tv: *[Fargo](https://www.rottentomatoes.com/tv/fargo/)*.
 
 Music: I have no f'ing clue.

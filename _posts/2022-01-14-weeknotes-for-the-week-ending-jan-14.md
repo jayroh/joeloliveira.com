@@ -37,7 +37,7 @@ Misc
 * Also listening to: This ["Growing Up Punk" podcast with Matt Pryor of the Get Up Kids] where he shares stories of five of his favorite _GUK_ songs.
 * Watching: The ["Dexter: New Blood"] finale. My opinion? [It was good]. The internet [disagrees].
 
-[The enigmatic Portuguese "R"]: http://hackingportuguese.com/pronunciation/portuguese-r-the-long-version/
+[The enigmatic Portuguese "R"]: https://hackingportuguese.com/pronunciation/portuguese-r-the-long-version/
 [HN]: https://news.ycombinator.com/item?id=29933671
 [Joan Didion and Betty White]: https://www.npr.org/2022/01/07/1071268365/remembering-joan-didion-betty-white
 ["Growing Up Punk" podcast with Matt Pryor of the Get Up Kids]: https://www.growingpunkpod.com/podcast/episode/40915725/123-the-get-up-kids-with-matt-pryor-vocalsguitar

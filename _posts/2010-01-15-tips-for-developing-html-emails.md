@@ -12,7 +12,7 @@ categories:
 ![Nested tables FTL][1]  
 **Option 1 – Don’t do it.**
 
- [1]: http://www.joeloliveira.com/wp-content/uploads/2010/01/140341-main_Full-e1263592316562.jpg "nested tables"
+ [1]: https://www.joeloliveira.com/wp-content/uploads/2010/01/140341-main_Full-e1263592316562.jpg "nested tables"
 
 And if that’s not on the table (haha – get it?), I present to you …
 
@@ -27,15 +27,15 @@ Before starting – these are the things you should have up front to make your l
 3.  **A virtual machine with Windows, and the latest version of Office.** This one’s a given as most emails sent for B2B purposes will end up in MS Outlook. As of right now the latest is Office 2007, whose changes to how html emails are rendered are the single reason to pack up and go home if you can. Want more info? [Here you go][5]. Office costs money, obviously, but if you don’t plan on doing too many of these html emails, [there’s a free download at Microsoft’s][6] that you can use as a trial for 90 days or so. Otherwise, purchase your copy legit … or find somewhere that will assist you in a … \*cough\* … longer “*trial period*“.
 4.  **If it’s in the budget – sign up for a screenshot generator.** If you’re tasked with testing your table-bloated masterpiece in more obscure email clients – Lotus, or Lotus Notes – whatever it’s called. Outlook 2003. The aforementioned AOL. You might want to invest in an account at one of the screenshot generator testing sites like [BrowserCam][7], [Litmus][8] or [CampaignMonitor][9]. Of those three I only plunked money down to try CampaignMonitor – which worked, but the screenshots were of varying quality. Some were half-generated. One looked like someone hit “ctrl-A” before the screenshot was taken. Very odd, but it did the trick to somewhat guess how things were looking. If I were to try any of those others instead I would probably go with Litmus. Again – [ymmv][10].
 
- [2]: http://agilewebsolutions.com/products/1Password
- [3]: http://www.campaignmonitor.com
- [4]: http://mailchimp.com
- [5]: http://www.google.com/search?q=html emails outlook 2007&ie=utf-8&oe=utf-8&aq=t
- [6]: http://us20.trymicrosoftoffice.com/default.aspx?culture=en-US
- [7]: http://browsercam.com
- [8]: http://litmusapp.com/
- [9]: http://www.campaignmonitor.com/features/make-and-send-great-looking-emails/
- [10]: http://en.wiktionary.org/wiki/your_mileage_may_vary
+ [2]: https://agilewebsolutions.com/products/1Password
+ [3]: https://www.campaignmonitor.com
+ [4]: https://mailchimp.com
+ [5]: https://www.google.com/search?q=html emails outlook 2007&ie=utf-8&oe=utf-8&aq=t
+ [6]: https://us20.trymicrosoftoffice.com/default.aspx?culture=en-US
+ [7]: https://browsercam.com
+ [8]: https://litmusapp.com/
+ [9]: https://www.campaignmonitor.com/features/make-and-send-great-looking-emails/
+ [10]: https://en.wiktionary.org/wiki/your_mileage_may_vary
 
 The following are the gotchas and tips I’ve become familiar with recently through the course of developing a handful of these emails. These somewhat defy the logic you might be used to when developing for the regular web – a medium that’s already tricky and nuanced. Coding for email clients is downright dumb in comparison.
 
@@ -46,8 +46,8 @@ The following are the gotchas and tips I’ve become familiar with recently thro
 5.  **Don’t expect an inline style at the outermost TD declaring the font information to cascade into your inner table soup.** Somewhere in your code I suggest wrapping some comments around a collection of what you anticipate being a common set of inline style attributes. This will allow quick access to copy and paste into your ’s, ’s, ’s, etc.
 6.  **And finally – Comments.** Be kind with your use of comments for the express purpose of landmarking where things are in your markup. Front-end development in 2010 is a beautiful thing and we forget how miserable it used to be 6 years ago. Over 25k in html alone is a hard thing to imagine these days, but when you get up to that you’ll thank yourself if you’ve placed gigantic honkin’ comments telling yourself where the left and right content starts and ends.
 
- [11]: http://www.campaignmonitor.com/css/
- [12]: http://www.campaignmonitor.com/templates/
+ [11]: https://www.campaignmonitor.com/css/
+ [12]: https://www.campaignmonitor.com/templates/
 
 Final thoughts – You will no longer take for granted the wonder and beauty that is good, clean, lovely, semantic markup. It absolutely boggles the mind that corporate IT managers will fall over themselves getting new versions of Office rolled out to their IT infrastructure, but OMG A POX ON NEW VERSIONS OF INTERNET EXPLORER (OH THE HORROR!).
 
@@ -55,4 +55,4 @@ Last but not least – know where the closest liquor/booze/package store is. You
 
 (hat tip to [@bmenoza][13] for the nudge in getting this post up)
 
- [13]: http://twitter.com/bmenoza
+ [13]: https://twitter.com/bmenoza

@@ -18,7 +18,7 @@ tags:
 
 ![Mario Kart][1]I have a strange love/hate relationship with our Wii.
 
- [1]: http://www.joeloliveira.com/wp-content/uploads/2008/05/mario_kart_arcade_gp_20050927.jpg
+ [1]: https://www.joeloliveira.com/wp-content/uploads/2008/05/mario_kart_arcade_gp_20050927.jpg
 
 On one hand, I love it for the few really great titles that have been released since it was introduced – Phantom Hourglass, Mario Galaxy, Guitar Hero 3, and the very latest in the Wii pantheon of “most favorite” … by a long shot … the new Mario Kart. All of these games have miraculously perfected (for the most part) what can be done on the hardware available to it. All provide hours, weeks even, of fun that can be had. Mario Kart alone has gotten me to break through the barrier of getting Sara’s entire family playing one game all at once. That’s a feat I would have never, **ever**, suspected to be overcome. For that alone, I give the folks at Nintendo mega props. Kudos for getting the non-gamer to enjoy sitting in front of a TV as a family, playing your console.
 
@@ -45,9 +45,9 @@ I’ve been playing this version of Mario Kart for almost a month to the day now
     
     I’d like to know what you think. [Leave a comment at the bottom of this post’s page and let me know if I’m off base or not][7].
 
- [2]: http://www.sadtrombone.com/
- [3]: http://www.joeloliveira.com/wp-content/uploads/2008/05/kart_1.jpg
- [4]: http://www.joeloliveira.com/wp-content/uploads/2008/05/kart_2.jpg
- [5]: http://www.mariokart.com/wii/launch/
- [6]: http://www.joeloliveira.com/wp-content/uploads/2008/05/kart_3.jpg
- [7]: http://www.joeloliveira.com/2008/05/27/the-one-the-only-completely-bone-headed-mistake-nintendo-made-with-mario-kart-and-by-proxy-the-wii/
+ [2]: https://www.sadtrombone.com/
+ [3]: https://www.joeloliveira.com/wp-content/uploads/2008/05/kart_1.jpg
+ [4]: https://www.joeloliveira.com/wp-content/uploads/2008/05/kart_2.jpg
+ [5]: https://www.mariokart.com/wii/launch/
+ [6]: https://www.joeloliveira.com/wp-content/uploads/2008/05/kart_3.jpg
+ [7]: https://www.joeloliveira.com/2008/05/27/the-one-the-only-completely-bone-headed-mistake-nintendo-made-with-mario-kart-and-by-proxy-the-wii/

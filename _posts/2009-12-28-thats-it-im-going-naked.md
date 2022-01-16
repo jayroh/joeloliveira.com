@@ -22,9 +22,9 @@ After months and months of on and of work on implementing this beautiful work I 
 to get back to the basics”. There’s no need to get stuck in the cycle of working and re-working ad
 nauseum (my name is not [George Broussard][4]). 
 
- [2]: http://www.erikagreco.com/blog/
- [3]: http://bitbythebeautybug.com
- [4]: http://www.wired.com/magazine/2009/12/fail_duke_nukem/
+ [2]: https://www.erikagreco.com/blog/
+ [3]: https://bitbythebeautybug.com
+ [4]: https://www.wired.com/magazine/2009/12/fail_duke_nukem/
 
 So, I’m deciding to strip everything down to the barest of mark-up and style and concentrate on
 letting this “brand” or “identity” grow organically through either the content or whatever
