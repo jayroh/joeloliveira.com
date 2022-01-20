@@ -6,7 +6,10 @@ author: Joel
 layout: post
 permalink: 2022/01/21/weeknotes-for-the-week-ending-jan-21.html
 alias: 2022/01/21/weeknotes-for-the-week-ending-jan-21
+photo: ./images/photos/pearl_and_i.jpg
 ---
+
+![Pearl and I -- either yawning, or grousing about something](/images/photos/pearl_and_i.jpg)
 
 When new posts are created and deployed here, they end up getting "announced" on a Slack channel with some local(-ish. New England.) friends from the web development community. I'd noticed that there were some small dinky details in the Slack RSS feed app that tipped me off that things could use some massaging. So. Of course. What better way to spend a weekend afternoon than watching sports and tinkering with [Jekyll] and other nonsense?
 
@@ -41,7 +44,10 @@ Misc
 * **Reading:** [This tweet]. This tweet about the dinosaur-killer meteorite is _insane_. [Bonus lulz].
 * **🇧🇷 Learning:** _"Pagar o pato"_. Literal translation: _"to pay the duck"_. Meaning: _"to take the blame"_.
 
-  _Note:_ Adding a new section here called "🇧🇷 Learning". As I listen through some podcasts trying to improve my Portuguese vocabulary I'll drop the interesting ones in here in an effort to make them stick. Vou pagar o pato por não aprender mais português. Desculpe.
+  _Note:_ Adding a new section here called "🇧🇷 Learning". As I listen through some podcasts trying to improve my Portuguese vocabulary I'll drop the interesting words/phrases in here in an effort to make them stick. Vou pagar o pato por não aprender mais português. Desculpe. [[translation]]
+* **Listening:** [Headspace]. We're in full-on SAD ("seasonal affective disorder") mode here so dipping back into some meditation is one way to stave off consecutive days of "the mondays".
 
+[translation]: https://translate.google.com/?sl=auto&tl=en&text=Vou%20pagar%20o%20pato%20por%20n%C3%A3o%20aprender%20mais%20portugu%C3%AAs.%20Desculpe.&op=translate
 [This tweet]: https://twitter.com/BitsHammer/status/1080576295208071168?t=786rv2CGmLKexXT5jBZBgg&s=09
 [Bonus lulz]: https://twitter.com/SeanR1974/status/1351287943013478412?s=20
+[Headspace]: https://www.headspace.com
