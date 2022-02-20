@@ -1,6 +1,6 @@
 ---
 title: the weekend in 2 photos
-intro: Intro
+intro: The one where we're stuck inside all weekend
 category: weeknotes
 author: Joel
 layout: post
