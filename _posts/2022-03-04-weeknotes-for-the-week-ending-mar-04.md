@@ -36,4 +36,6 @@ So to the two of them -- Gleb and Tim, congratulations on shipping Thredded 1.0.
 [Thredded project]: https://thredded.org/
 [to a 1.0 release]: https://github.com/thredded/thredded/releases/tag/v1.0.0
 
+***
+
 <a href="#from-1" name="to-1"><sup>1</sup></a>: In many ways I have that project, and the thousands of hours I spent on it, to thank for being the test-bed for the experimentation and learning that got me to where I am in my career today.
