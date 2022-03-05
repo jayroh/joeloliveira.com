@@ -24,17 +24,15 @@ Almost 21 years ago I was working at a small-ish web development agency (RIP Scr
 
 Fast-forward 15, 16 years later and I had continued to work on it in some form or another - 2 rewrites in PHP, 3 rewrites in Ruby/Rails. By that time I slowed down, getting along in my career, started a family, having less time and enthusiasm for maintaining the code. I'd managed to extract the bulk of the code into an open source ruby gem and was relatively happy with where it was. So it was a fortunate turn of events that [Gleb], this brilliant engineer in London, got in touch with me and started contributing ([a LOT!]) to the codebase. Another guy, [Tim], also came along and helped push things to another level.
 
-Which brings me to why I mention this now. This week Tim and Gleb got the [Thredded project] [to a 1.0 release], which is a huge milestone considering the modest beginnings of the project. Twenty-one years after a very immature, very green, very stupid, kid started slinging awful PHP as a means to connect with his friends and act as a test-bed for learning new technology <a href="#to-1" name="from-1">1</a>
-
-I'm genuinely shocked that it's managed to kick around this long. As much as I am shocked, I am doubly thankful for the stewardship, care, and incredible work that Gleb and Tim have put into the project. I may have planted a seed 21 years ago, but the two of them have tended to, grown, the project into a remarkable _gem_ of a gem. It's way more their accomplishment at this point than it is mine.
-
-So to the two of them -- Gleb and Tim, congratulations on shipping Thredded 1.0. Cheers 🥂
+Which brings me to why I mention this now. This week Tim and Gleb got the [Thredded project](https://thredded.org) [to a 1.0 release](https://github.com/thredded/thredded/releases/tag/v1.0.0), which is a huge milestone considering the modest beginnings of the project. Twenty-one years after a very immature, very green, very stupid, kid started slinging awful PHP as a means to connect with his friends and act as a test-bed for learning new technology <a href="#to-1" name="from-1">1</a>
 
 [Gleb]: https://github.com/glebm
 [a LOT!]: https://github.com/thredded/thredded/graphs/contributors
 [Tim]: https://github.com/timdiggins
-[Thredded project]: https://thredded.org/
-[to a 1.0 release]: https://github.com/thredded/thredded/releases/tag/v1.0.0
+
+I'm genuinely shocked that it's managed to kick around this long. As much as I am shocked, I am doubly thankful for the stewardship, care, and incredible work that Gleb and Tim have put into the project. I may have planted a seed 21 years ago, but the two of them have tended to, grown, the project into a remarkable _gem_ of a gem. It's way more their accomplishment at this point than it is mine.
+
+So to the two of them -- Gleb and Tim, congratulations on shipping Thredded 1.0. Cheers 🥂
 
 ***
 
