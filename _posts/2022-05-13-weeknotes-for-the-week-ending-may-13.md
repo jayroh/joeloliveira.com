@@ -1,10 +1,10 @@
 ---
-title: Weeknotes for the week ending May.20
+title: Weeknotes for the week ending May.13
 category: weeknotes
 author: Joel
 layout: post
-permalink: 2022/05/20/weeknotes-for-the-week-ending-may-20.html
-alias: 2022/05/20/weeknotes-for-the-week-ending-may-20
+permalink: 2022/05/13/weeknotes-for-the-week-ending-may-13.html
+alias: 2022/05/13/weeknotes-for-the-week-ending-may-13
 intro: The problem is coming from _inside_ the house
 photo: ./images/photos/orange-dots-are-bad.png
 ---
