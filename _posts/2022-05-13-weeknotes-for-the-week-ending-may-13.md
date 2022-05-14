@@ -73,6 +73,8 @@ Settings ▶
         ☑️ Scan
 ```
 
+I should note, this might be only for the *UDM Pro*. [Kyle](https://twitter.com/kyleridolfo) let me know he doesn't see this in his *UDM*.
+
 ***
 
 Happy networking!
