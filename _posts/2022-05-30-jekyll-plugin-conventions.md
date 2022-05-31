@@ -146,3 +146,4 @@ plugin.
 
 [imgproxy]: https://imgproxy.net/
 [the source]: https://github.com/jayroh/joeloliveira.com/
+[the commit]: https://github.com/jayroh/joeloliveira.com/commit/28374ba35c8149a8156a164c30834aadbf4e3c8a
