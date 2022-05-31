@@ -1,4 +1,6 @@
-plugins: ['jekyll-twitter-plugin']
+plugins:
+  - jekyll-twitter-plugin
+  - jekyll-imgproxy-tag
 url: https://www.joeloliveira.com
 name: My name is Joel
 highlighter: pygments
