@@ -1,24 +1,28 @@
 # frozen_string_literal: true
 
-require 'jekyll'
-
 module Jekyll
   module Imgproxy
-    class Tag < Liquid::Tag
+    class Tag < ::Liquid::Tag
       VERSION = '0.1.0'
 
-      def initialize(tag_name, markup, tokens)
+      def initialize(tag_name, raw_options, tokens)
         super
-        @markup = markup
+        @raw_options = raw_options
+        @options = {}
+
+        @raw_options.scan(::Liquid::TagAttributes) do |key, value|
+          @options[key] = value.gsub(/^['"]|['"]$/, '')
+        end
       end
 
       def render(_context)
-        'Thanks for reading!'
+        imgproxy_config = ImgproxyConfig.new
+        UrlGenerator.new(imgproxy_config, options).url
       end
 
       protected
 
-      attr_accessor :markup
+      attr_accessor :options
     end
   end
 end

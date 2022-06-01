@@ -10,7 +10,11 @@ photo: ./images/photos/utah.jpg
 ---
 
 <figure class="photo-with-caption">
-  <img src="/images/photos/utah.jpg" width="609">
+  <picture>
+    <source srcset="{% imgproxy_url path: "/images/photos/utah.jpg", resizing_type: 'fill', width: 1214, format: "avif" %}" type="image/avif">
+    <source srcset="{% imgproxy_url path: "/images/photos/utah.jpg", resizing_type: 'fill', width: 1214, format: "webp" %}" type="image/webp">
+    <img src="{% imgproxy_url path: "/images/photos/utah.jpg", resizing_type: 'fill', width: 1214 %}" alt="Me, somewhere in the middle of nowhere, Utah" width="607" height="455" loading="lazy" decoding="async">
+  </picture>
   <figcaption>
     "Middle of nowhere" Utah, mid-x-country drive back to NE from San Diego - November 2001.
   </figcaption>
