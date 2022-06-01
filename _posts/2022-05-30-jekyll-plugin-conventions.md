@@ -1,6 +1,6 @@
 ---
 title: Jekyll Plugin Conventions
-category: blog
+category: blog, code, jekyll, dev
 author: Joel
 layout: post
 permalink: 2022/05/30/jekyll-plugin-conventions.html
@@ -142,7 +142,7 @@ image processing tool. If you look at [the source] and [the commit] for this
 post you will see all of the above applied as I flesh out the skeleton of the
 plugin.
 
-{% imgproxy_url %}
+Thanks for reading!
 
 [imgproxy]: https://imgproxy.net/
 [the source]: https://github.com/jayroh/joeloliveira.com/
