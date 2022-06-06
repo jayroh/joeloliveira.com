@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'jekyll'
-
 module Jekyll
   module Imgproxy
     class Tag
@@ -22,10 +20,23 @@ module Jekyll
         private
 
         def fetch_config(key)
-          value = Jekyll.configuration['imgproxy'][key.to_s]
+          check_config!
+
+          value = imgproxy_config[key.to_s]
           return ENV[value.gsub(/^ENV_/, '')] if value&.match?(/^ENV_/)
 
           value
+        end
+
+        def check_config!
+          raise Jekyll::Imgproxy::Tag::Errors::ConfigNotFound if imgproxy_config.nil?
+          raise Jekyll::Imgproxy::Tag::Errors::SaltNotSet if imgproxy_config['salt'].nil?
+          raise Jekyll::Imgproxy::Tag::Errors::KeyNotSet if imgproxy_config['key'].nil?
+          raise Jekyll::Imgproxy::Tag::Errors::BaseUrlNotSet if imgproxy_config['base_url'].nil?
+        end
+
+        def imgproxy_config
+          Jekyll.configuration['imgproxy']
         end
       end
     end

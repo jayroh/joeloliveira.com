@@ -5,6 +5,7 @@ $LOAD_PATH.unshift File.expand_path('../lib', __dir__)
 require 'yaml'
 require 'rspec'
 require 'jekyll'
+require 'pry'
 require_relative '../lib/jekyll-imgproxy-tag'
 
 RSpec.configure do |config|
