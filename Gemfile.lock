@@ -1,9 +1,3 @@
-PATH
-  remote: vendor/jekyll-imgproxy-tag
-  specs:
-    jekyll-imgproxy-tag (0.1.0)
-      jekyll
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -56,6 +50,8 @@ GEM
     jekyll-dotenv (0.2.0)
       dotenv (~> 2.7)
       jekyll (~> 4)
+    jekyll-imgproxy-tag (0.1.0)
+      jekyll
     jekyll-sass-converter (2.2.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-twitter-plugin (2.1.0)
@@ -109,7 +105,7 @@ DEPENDENCIES
   compass
   jekyll
   jekyll-dotenv
-  jekyll-imgproxy-tag!
+  jekyll-imgproxy-tag
   jekyll-twitter-plugin
   kramdown (>= 2.3.0)
   mini_magick
