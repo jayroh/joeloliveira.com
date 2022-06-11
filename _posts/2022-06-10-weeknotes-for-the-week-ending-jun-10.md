@@ -29,8 +29,6 @@ I noticed that this week marked the 6 month mark since I started working with [A
 * About 4 times a week.
 * Paired with a 1750-2000 calorie, 40/20/40 carb/fat/protein macro.
 
-That's a level of commitment to physical activity I've never previously achieved, so you could say I'm a little proud of myself.
-
-After 6 months the results have been excellent – I've dropped 25 lbs of fat, put on 10 lbs of muscle, and, most importantly, I feel quite good. There's much more I could say but I'm going to save that for after the next 6 months. This is only the start.
+That's a level of commitment to physical activity I've never previously achieved, so you could say I'm a little proud of myself. After 6 months the results have been excellent – I've dropped 25 lbs of fat, put on 10 lbs of muscle, and, most importantly, I *feel* great. There's more I could say but I'll save that for after the next 6 months. This is only the start.
 
 (One note: big ups to [Alexa](https://www.instagram.com/alexammay/) for keeping me on point for the last 6 months. She's been the steadying and encouraging force I've needed.)
