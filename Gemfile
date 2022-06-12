@@ -3,11 +3,10 @@
 source 'https://rubygems.org'
 
 gem 'albino'
-gem 'compass'
 gem 'jekyll'
 gem 'jekyll-dotenv'
-gem 'jekyll-dotenv'
 gem 'jekyll-imgproxy-tag'
+gem 'jekyll-postcss'
 gem 'jekyll-twitter-plugin'
 gem 'kramdown', '>= 2.3.0'
 gem 'mini_magick'
