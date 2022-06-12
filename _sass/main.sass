@@ -134,13 +134,6 @@ a
       style: italic
       weight: bold
 
-  // Dribbble
-  .dribbble
-
-    img.shot
-      border: 1px solid #cbcdca
-      width: 70%
-
   // Elsewhere
   .elsewhere
     p
@@ -223,7 +216,7 @@ a
   // ========================================
 
   header.global
-    +single-box-shadow($white, 0, 0, 2.5em, .8em)
+    +single-box-shadow(0, 0, 2.5em, .8em, $white)
     background: #f8f8f8
     border-bottom: 1px solid $white
     padding: .5em 0 .4em
@@ -259,15 +252,12 @@ a
           color: $linkColor
 
     .menu
-      +replace-text("menu.svg")
+      +replace-text("menu.png")
       background-size: 100%
       float: right
       height: 16px
       margin-top: .125em
       width: 21px
-
-      .lt-ie9 &
-        +replace-text("menu.png")
 
   .main
     padding:
@@ -378,9 +368,10 @@ a
     &.active
       right: 0
 
+
     header
       +border-radius(4px 0 0 0)
-      +single-box-shadow($black, 0, 0, .3em)
+      +single-box-shadow(0, 0, .3em, null, $black)
       background: #222222
       display: block
       height: 2.35em
