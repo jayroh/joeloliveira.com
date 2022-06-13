@@ -16,7 +16,6 @@
     {% endif %}
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" type="application/rss+xml" title="Joel Oliveira &raquo; Feed" href="https://www.joeloliveira.com/rss.xml" />
-    <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/ico/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/ico/favicon-32x32.png">
@@ -66,16 +65,23 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
   </head>
-  <body class="blog{% if page.id %} post{% endif %} text-red-500">
-    <header class="global">
-      <div class="container">
-        <h1><a href="/">Joel<span>, (always one syllable), often "@jayroh"</span></a></h1>
-        <a href="#" class="menu">menu</a>
+  <body class="blog{% if page.id %} post{% endif %}">
+    <header class="bg-gray-100 border-solid border-b border-white py-2 fixed w-full top-0">
+      <div class="m-0 mx-auto py-1 max-w-2xl">
+
+        <h1 class="text-sm font-bold tracking-widest uppercase text-gray-400">
+          <a href="/" class="hover:text-gray-600">
+            Joel,
+            <span class="text-xs font-normal italic normal-case tracking-normal">(always one syllable), often "@jayroh"</span>
+          </a>
+        </h1>
+
+        <!-- <a href="#" class="menu">menu</a> -->
       </div>
     </header>
 
-    <section class="main">
-      <div class="container">
+    <section class="pt-12">
+      <div class="mx-auto max-w-2xl">
         {{ content }}
       </div>
     </section>
@@ -119,34 +125,12 @@
         <div class="fin"></div>
       </div>
     </section>
-    <script src="/javascripts/main-min.js"></script>
-    <script>
-      coded = "eCbv@4VjJC6.WC"
-      key = "lgB2tTU7HZjwdCvDsaYGQIkqef95Sx4hO0XAKmbNP3i6yVEpM8rnJcz1WLuFRo"
-      shift = coded.length
-      link = ""
-      email_me = $('.email-me')
-
-      if(email_me.length) {
-        for (i=0; i<coded.length; i++) {
-          if (key.indexOf(coded.charAt(i))==-1) {
-            ltr = coded.charAt(i)
-            link += (ltr)
-          } else {
-            ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-            link += (key.charAt(ltr))
-          }
-        }
-
-        email_me.replaceWith("<a href='mailto:"+link+"'>email me directly</a>");
-      }
-    </script>
-
     <script>
       var _gaq=[['_setAccount','UA-2546531-2'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+    <link rel="stylesheet" href="/assets/css/syntax.css">
   </body>
 </html>

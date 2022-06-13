@@ -4,9 +4,13 @@ title: joel oliveira
 ---
 
 {% for post in site.posts limit:4 %}
-  <article>
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <h3 class="date">{{ post.date | date_to_string }}</h3>
+  <article class="pt-9">
+    <h1 class="text-4xl text-center border-solid border-b border-gray-100 pb-4">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h1>
+
+    <h3 class="font-vollkorn text-sm text-center text-gray-400 font-light italic mb-6 mt-2">{{ post.date | date_to_string }}</h3>
+
     {{ post.content }}
   </article>
 {% endfor %}

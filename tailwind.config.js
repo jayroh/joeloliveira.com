@@ -6,8 +6,19 @@ module.exports = {
     './*.html',
   ],
   theme: {
-    theme: {
-      extend: {},
+    extend: {
+      colors: {
+        'light-blue-500': '#049CDB',
+      },
+      fontFamily: {
+        'vollkorn': [
+          'Vollkorn',
+          'Georgia',
+          'Times',
+          '"Times New Roman"',
+          'serif'
+        ]
+      }
     },
   },
   plugins: []
