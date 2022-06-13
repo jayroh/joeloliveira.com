@@ -17,6 +17,12 @@ module.exports = {
           'Times',
           '"Times New Roman"',
           'serif'
+        ],
+        'mono': [
+          '"Inconsolata"',
+          '"Monoco"',
+          '"Courier New"',
+          'monospace'
         ]
       }
     },

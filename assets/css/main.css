@@ -96,6 +96,10 @@
     @apply my-6;
   }
 
+  article h2 {
+    @apply text-gray-400 uppercase my-4 tracking-widest font-medium text-xl;
+  }
+
   article p,
   article li {
     @apply font-vollkorn text-gray-600 text-lg;
@@ -111,5 +115,21 @@
 
   article li {
     @apply mb-2;
+  }
+
+  article pre {
+    @apply bg-gray-100 px-5 py-4 rounded-lg text-gray-500 mb-5 whitespace-pre-wrap;
+  }
+
+  p > code {
+    @apply bg-gray-100 text-gray-500 text-base px-2 py-1 rounded;
+  }
+
+  p a {
+    @apply underline px-1;
+  }
+
+  p a:hover {
+    @apply bg-blue-50;
   }
 }
