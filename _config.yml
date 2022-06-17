@@ -1,7 +1,7 @@
 plugins:
   - jekyll-dotenv
   - jekyll-imgproxy-tag
-  - jekyll-postcss
+  - jekyll-postcss-v2
   - jekyll-twitter-plugin
 url: https://www.joeloliveira.com
 name: My name is Joel
