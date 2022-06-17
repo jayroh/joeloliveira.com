@@ -7,14 +7,23 @@ permalink: 2022/06/10/weeknotes-for-the-week-ending-jun-10.html
 alias: 2022/06/10/weeknotes-for-the-week-ending-jun-10
 intro: The one I look back on the last 6 months'ish
 photo: ./images/photos/g-td-garden.jpg
+preload:
+  mobile: https://images.jro.li/A5pauj1GZo3fAp3YAcIY4Jw6iDOaeBw7EJ_EkYvlvig/rs:fill:738:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL2ctdGQtZ2Fy/ZGVuLmpwZw.jpg
+  desktop: https://images.jro.li/ss3-2gJb-T-uf2J7t-M7EWTPXvEoul-OBXhG7I-rUhM/rs:fill:1214:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL2ctdGQtZ2Fy/ZGVuLmpwZw.jpg
 ---
 
 <figure class="photo-with-caption">
   <picture>
-    <source srcset="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 1214, format: "avif" %}" type="image/avif">
-    <source srcset="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 1214, format: "webp" %}" type="image/webp">
-    <img src="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 1214 %}" alt="G standing in front of TD Garden" width="607" height="341" loading="lazy" decoding="async">
+    <source
+      srcset="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 1344 %}"
+      media="(min-width: 413px)" />
+    <img
+      src="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 738 %}"
+      alt="G standing in front of TD Garden"
+      width="369"
+      height="208" />
   </picture>
+
   <figcaption>
     We're in the midst of the NBA Finals, which calls for a trip to TD Garden.
   </figcaption>

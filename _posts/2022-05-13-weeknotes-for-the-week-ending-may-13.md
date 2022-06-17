@@ -61,7 +61,17 @@ Yes. I'll cut to the chase.
 If you run a Unifi rig at home, and you enable Unifi's "IPS", then you might have inadvertently enabled some security
 rules that prevent doing something like `ssh-copy-id`. Your "event timeline" might look something like the following:
 
-![Screenshot of what looked wrong](/images/photos/orange-dots-are-bad.png)
+<picture>
+  <source
+    srcset="{% imgproxy_url path: "/images/photos/orange-dots-are-bad.png", width: 1344 %}"
+    media="(min-width: 413px)" />
+  <img
+    src="{% imgproxy_url path: "/images/photos/orange-dots-are-bad.png", width: 738 %}"
+    alt="Screenshot of what looked wrong"
+    width="369"
+    height="216"
+    loading="lazy" />
+</picture>
 
 You can click the button on the right to allow from your/all ip's, or you can turn off this particular rule via:
 

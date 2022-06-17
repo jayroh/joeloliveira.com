@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <meta name="author" content="Joel Oliveira">
     {% if page.intro %}
@@ -44,6 +44,14 @@
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     {% endif %}
 
+    {% if page.preload %}
+      <link rel="preload" media="(max-width: 414px)" href="{{ page.preload.mobile }}" as="image">
+      <link rel="preload" media="(min-width: 413px)" href="{{ page.preload.desktop }}" as="image">
+    {% elsif site.posts.first.preload %}
+      <link rel="preload" media="(max-width: 414px)" href="{{ site.posts.first.preload.mobile }}" as="image">
+      <link rel="preload" media="(min-width: 413px)" href="{{ site.posts.first.preload.desktop }}" as="image">
+    {% endif %}
+
     {% if page.photo %}
       <meta property="og:image" content="{{ site.url }}/{{ page.photo | facebook_image }}" />
       <meta name="twitter:image" content="{{ site.url }}/{{ page.photo | twitter_image }}">
@@ -59,50 +67,53 @@
     {% if site.owner_link %}
       <meta property="article:author" content="{{ site.owner_link }}" />
     {% endif %}
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,700italic,400,700|Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/javascripts/jquery.min.js"><\/script>')</script>
   </head>
   <body class="blog{% if page.id %} post{% endif %}">
     <header class="bg-gray-100 border-solid border-b border-white py-2 fixed w-full top-0">
-      <div class="m-0 mx-auto py-1 max-w-2xl">
-
-        <h1 class="text-sm font-bold tracking-widest uppercase text-gray-400">
+      <div class="m-0 mx-auto py-1 max-w-2xl flex">
+        <h1 class="text-sm font-bold tracking-widest uppercase text-gray-400 grow ml-2 md:ml-auto">
           <a href="/" class="hover:text-gray-600">
-            Joel,
-            <span class="text-xs font-normal italic normal-case tracking-normal">(always one syllable), often "@jayroh"</span>
+            Joel
+            <span class="text-xs font-normal italic normal-case tracking-normal">Always one syllable, sometimes "@jayroh"</span>
           </a>
         </h1>
 
-        <!-- <a href="#" class="menu">menu</a> -->
+        <label for="panel-toggle" class="cursor-pointer mr-2 md:mr-auto flex items-center"><img src="/images/menu.png" width="20" height="13" alt="Toggle menu."></label>
       </div>
     </header>
 
     <section class="pt-12">
-      <div class="mx-auto max-w-2xl">
+      <div class="mx-auto max-w-2xl px-3 md:px-0">
         {{ content }}
       </div>
     </section>
 
-    <section class="panel">
-      <header>
-        <a class="close" href="#">close</a>
+    <input type="checkbox" name="panel-toggle" id="panel-toggle" class="panel-toggle hidden">
+
+    <section class="rounded bg-zinc-800 fixed w-full -right-full md:w-1/2 md:-right-1/2 top-0 bottom-0 overflow-y-auto transition-all duration-200 ease-in">
+      <header class="rounded shadow-lg bg-zinc-900 w-full h-10 flex items-center justify-left">
+        <label for="panel-toggle" class="cursor-pointer inline ml-6">
+          <img src="/images/close.png" width="17" height="17" alt="Toggle menu.">
+        </label>
       </header>
 
-      <div class="contents">
-        <div class="about">
-          <a href="/">
-            <img src="/images/joel.png" alt="Joel Oliveira" />
+      <div class="text-white">
+        <div class="flex flex-col md:flex-row items-center justify-center p-6 border-b-4 border-zinc-900">
+
+          <a href="/" class="block md:pr-6">
+            <img src="{% imgproxy_url path: '/images/photos/joel.png', width: 100, height: 100 %}"
+                 alt="A photo of me, Joel Oliveira, smiling."
+                 width="100" height="100"
+                 loading="lazy" class="rounded-full md:w-48 mb-4 md:mb-auto">
           </a>
-          <div class="bio">
-            <h1>Hi, I'm Joel.</h1>
-            <p>
-              An engineering manager in Boston. Lapsed "tweeter" at
-              <a href="https://twitter.com/jayroh">@jayroh</a>. Thinking
-              about family, my (bull)dogs, code, comics, and building things like
-              <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">shubox</a>.
+
+          <div class="text-center md:text-left">
+            <h1 class="text-lg mb-2">Hello, I'm Joel. Hi! 👋</h1>
+            <p class="font-vollkorn text-sm text-gray-400 pr-3 md:pr-10">
+              An engineering manager in Boston.
+              Lapsed "tweeter" at <a href="https://twitter.com/jayroh" class="text-white">@jayroh</a>.
+              Here I write about my family, my (bull)dogs, code and technology, and working on a little passion project named
+              <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app" class="text-white">shubox</a>.
             </p>
           </div>
         </div>
@@ -110,12 +121,17 @@
         {% assign years= "2022|2021|2016|2014|2013|2012|2011|2010|2009|2008|2007|2006" | split: "|" %}
         {% for year in years %}
           <div class="year">
-            <h2>Articles from {{ year }}</h2>
-            <ul>
+            <h2 class="border-b border-stone-500 px-6 py-2 text-lg">
+              <label for="for_{{ year }}" class="cursor-pointer">Articles from {{ year }}</label>
+            </h2>
+
+            <input type="checkbox" id="for_{{ year }}" name="for_{{ year }}" class="toggle-year hidden">
+
+            <ul class="block max-h-0 overflow-hidden transition-all duration-200 ease-in">
               {% for post in site.posts %}
                 {% capture post_year %}{{post.date | date: "%Y"}}{% endcapture %}
                 {% if post_year == year %}
-                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  <li><a href="{{ post.url }}" class="text-sm px-6 py-1 block hover:bg-zinc-900">{{ post.title }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>

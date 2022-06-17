@@ -7,13 +7,22 @@ permalink: 2022/03/04/weeknotes-for-the-week-ending-mar-4.html
 alias: 2022/03/04/weeknotes-for-the-week-ending-mar-4
 intro: The one about some software I used to obsess about
 photo: ./images/photos/utah.jpg
+preload:
+  mobile: https://images.jro.li/W1YL5bEFTP0ieJLAeQKc2Y8_55z9TsrP0MD6HTXGC6c/rs:fit:738:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL3V0YWguanBn.jpg
+  desktop: https://images.jro.li/vCFXyKU8lyTYLhpSOUvPOsUQYiEITXGehwBYpmVSlfc/rs:fit:1344:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL3V0YWguanBn.jpg
 ---
+
 
 <figure class="photo-with-caption">
   <picture>
-    <source srcset="{% imgproxy_url path: "/images/photos/utah.jpg", resizing_type: 'fill', width: 1214, format: "avif" %}" type="image/avif">
-    <source srcset="{% imgproxy_url path: "/images/photos/utah.jpg", resizing_type: 'fill', width: 1214, format: "webp" %}" type="image/webp">
-    <img src="{% imgproxy_url path: "/images/photos/utah.jpg", resizing_type: 'fill', width: 1214 %}" alt="Me, somewhere in the middle of nowhere, Utah" width="607" height="455" loading="lazy" decoding="async">
+    <source
+      srcset="{% imgproxy_url path: "/images/photos/utah.jpg", width: 1344 %}"
+      media="(min-width: 413px)" />
+    <img
+      src="{% imgproxy_url path: "/images/photos/utah.jpg", width: 738 %}"
+      alt="Me, somewhere in the middle of nowhere, Utah."
+      width="369"
+      height="216" />
   </picture>
   <figcaption>
     "Middle of nowhere" Utah, mid-x-country drive back to NE from San Diego - November 2001.

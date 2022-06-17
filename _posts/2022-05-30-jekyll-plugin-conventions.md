@@ -7,9 +7,21 @@ permalink: 2022/05/30/jekyll-plugin-conventions.html
 alias: 2022/05/30/jekyll-plugin-conventions
 intro: How the hell do these jekyll plugins work, anyway
 photo: ./images/photos/jekyll-hyde.jpg
+preload:
+  mobile: https://images.jro.li/BwCq_q0sU--xEWkGsdTtA0V5ds0n8mgP2n4rknNFBgY/rs:fit:738:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvamVr/eWxsLnBuZw.jpg
+  desktop: https://images.jro.li/MHApFJ2VlxzSirmOBOUUVKxkw2KSjlO361Q1yfRIr0E/rs:fit:1344:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvamVr/eWxsLnBuZw.jpg
 ---
 
-![jekyll logo](/images/jekyll.png)
+<picture>
+  <source
+    srcset="{% imgproxy_url path: "/images/jekyll.png", width: 1344 %}"
+    media="(min-width: 413px)" />
+  <img
+    src="{% imgproxy_url path: "/images/jekyll.png", width: 738 %}"
+    alt="Jekyll logo."
+    width="369"
+    height="208" />
+</picture>
 
 When it comes to static-site generators Jekyll is clearly among the old heads
 (if not the ***oldest***). I know it's not sexy. I know it's not shiny.
@@ -43,7 +55,17 @@ Naming? Any nuance?
 2. [Per the rubygems guides], there are recommendations for how you structure
    your files and class-names when you use certain naming conventions.
 
-   ![chart with recommendations for how to name gems](/images/naming-gems.png)
+   <picture>
+     <source
+       srcset="{% imgproxy_url path: "/images/naming-gems.png", width: 1344 %}"
+       media="(min-width: 413px)" />
+     <img
+       src="{% imgproxy_url path: "/images/naming-gems.png", width: 738 %}"
+       alt="Chart with recommendations for how to name gems."
+       width="369"
+       height="208"
+       loading="lazy" />
+   </picture>
 
    So, if you are naming your plugin "`jekyll-awesome-possum`" your file and
    directory structure would look like so:

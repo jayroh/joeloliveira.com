@@ -124,7 +124,11 @@
   }
 
   article pre {
-    @apply bg-gray-100 px-5 py-4 rounded-lg text-gray-500 mb-5 whitespace-pre-wrap;
+    @apply bg-gray-100 px-5 py-4 rounded-lg text-gray-500 mb-5 whitespace-pre-wrap overflow-hidden text-sm md:text-base;
+  }
+
+  article picture ~ p {
+    @apply mt-4;
   }
 
   p > code {
@@ -138,4 +142,16 @@
   p a:hover {
     @apply bg-blue-50;
   }
+
+  .panel-toggle:checked ~ section {
+    @apply right-0;
+  }
+
+  .toggle-year:checked ~ ul {
+    @apply max-h-64;
+  }
+
+
+
+
 }
