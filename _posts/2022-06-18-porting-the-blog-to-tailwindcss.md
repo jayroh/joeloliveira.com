@@ -11,8 +11,8 @@ intro: The one where this site gets pulled into this decade.
 A couple weeks ago I noticed there were some style-related issues here, so I
 reached for the css to make the necessary fixes. Easy enough.
 
-But when I did so - I paused. And then realized I had no idea how to edit and
-rebuild it(?). It had been a long, long, while.
+But when I did so - I paused, confused, then realized I had no idea how to edit and
+rebuild it(?). It had been a long, long, while since I last adjusted the styles.
 
 > Side note: remember [Compass](http://compass-style.org/)? This website was using Compass! _I loved it!_
 > Shout out to a real OG, author of compass and co-founder of Sass, [Chris Eppstein](https://twitter.com/chriseppstein).
