@@ -119,6 +119,10 @@
     @apply pl-6 list-disc my-4;
   }
 
+  article ol {
+    @apply list-decimal list-outside pl-5;
+  }
+
   article li {
     @apply mb-2;
   }
@@ -127,10 +131,15 @@
     @apply bg-gray-100 px-5 py-4 rounded-lg text-gray-500 mb-5 whitespace-pre-wrap overflow-hidden text-sm md:text-base;
   }
 
+  article blockquote {
+    @apply px-5 py-2 border-l-4 border-solid border-gray-400 bg-gray-100 mb-4;
+  }
+
   article picture ~ p {
     @apply mt-4;
   }
 
+  li > code,
   p > code {
     @apply bg-gray-100 text-gray-500 text-base px-2 py-1 rounded;
   }
@@ -150,8 +159,4 @@
   .toggle-year:checked ~ ul {
     @apply max-h-64;
   }
-
-
-
-
 }
