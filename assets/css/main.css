@@ -120,7 +120,7 @@
   }
 
   article ol {
-    @apply list-decimal list-outside pl-5;
+    @apply list-decimal list-outside pl-5 mb-4;
   }
 
   article li {
@@ -133,6 +133,18 @@
 
   article blockquote {
     @apply px-5 py-2 border-l-4 border-solid border-gray-400 bg-gray-100 mb-4;
+  }
+
+  .pull-quote {
+    @apply border-l-0 border-b-4 w-4/5 md:w-1/2 md:float-right md:-mr-8 px-8 py-6 m-auto mb-4 md:ml-8 md:mb-0;
+  }
+
+  article blockquote p {
+    @apply mb-0;
+  }
+
+  article blockquote p ~ p {
+    @apply mt-4;
   }
 
   article picture ~ p {
