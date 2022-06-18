@@ -37,7 +37,7 @@ GEM
     jekyll-dotenv (0.2.0)
       dotenv (~> 2.7)
       jekyll (~> 4)
-    jekyll-imgproxy-tag (0.2.0)
+    jekyll-imgproxy-tag (0.3.0)
       jekyll
     jekyll-postcss-v2 (1.0.1)
     jekyll-sass-converter (2.2.0)
