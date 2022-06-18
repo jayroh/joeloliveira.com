@@ -43,7 +43,12 @@ work in progress in one browser window, and your source/reference in another
 browser. The [Tailwind docs workflow](https://www.packal.org/workflow/tailwind-docs-workflow-alfred)
 for Alfred also came in handy for all of the documentation reference.
 
-Finally, while doing this bit of work I took the opportunity to check the
+Final thought part 1: while doing this bit of work I took the opportunity to check the
 blog's performance via [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 and made some further changes to improve its score. I'll add some details
 related to that in a follow-up post.
+
+Final _final_ thought: additional shout-out to [Dan](https://www.perrera.com/)
+for the original design and CSS for this website. Literally couldn't have done
+this without you, Dan. Thank you 😄.
+{: #dan }
