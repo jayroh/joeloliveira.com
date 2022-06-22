@@ -9,7 +9,7 @@ intro: The one where this site gets pulled into this decade.
 ---
 
 A couple weeks ago I noticed there were some style-related issues here, so I
-reached for the css to make the necessary fixes. Easy enough.
+reached for the CSS to make the necessary fixes. Easy enough.
 
 But when I did so - I paused, confused, then realized I had no idea how to edit and
 rebuild it(?). It had been a long, long, while since I last adjusted the styles.
@@ -33,7 +33,7 @@ Rough steps:
    _except_ for the npm dependencies, which they instruct that you install via
    `npm i -D postcss postcss-cli`. If you are using Netlify to build and deploy
    your website (as I do), then ***make sure to omit*** the `-D` because if and
-   when you set `JEKYLL_ENV` to `production` then npm will not install whatever
+   when you set `JEKYLL_ENV` to `production` then npm won't install whatever
    is inside the `devDependencies` key of your `package.json`.
 4. Rewrite the old styles using the new framework. AKA, "[draw the rest of the owl](https://knowyourmeme.com/memes/how-to-draw-an-owl)"
 
@@ -43,7 +43,7 @@ work in progress in one browser window, and your source/reference in another
 browser. The [Tailwind docs workflow](https://www.packal.org/workflow/tailwind-docs-workflow-alfred)
 for Alfred also came in handy for all of the documentation reference.
 
-Final thought part 1: while doing this bit of work I took the opportunity to check the
+Final thought part 1: while doing this bit of work I took the opportunity to examine the
 blog's performance via [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 and made some further changes to improve its score. I'll add some details
 related to that in a follow-up post.

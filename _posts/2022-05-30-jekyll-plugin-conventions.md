@@ -91,11 +91,11 @@ Naming? Any nuance?
    # ...
    ```
 
-   Note: There is a bit of unorthodoxy going on here that is worth pointing
+   Note: There is a bit of unorthodoxy going on here that's worth pointing
    out. Normally the file `lib/jekyll-awesome-possum.rb` would not be necessary
    as ruby conventions would expect to auto-load code in
    `lib/jekyll/awesome/possum.rb`. Jekyll, however, does look to directly load
-   that file and will complain if you do not have it:
+   that file and will complain if you don't have it:
 
    ```
    jekyll-4.2.1/lib/jekyll/external.rb:60:in `require': cannot load such file -- jekyll-imgproxy-tag (LoadError)
@@ -144,9 +144,9 @@ Naming? Any nuance?
    ```
 
    If you take a [look at the Jekyll source], you can see where the Jekyll team
-   namespaces all of the project within a `Jekyll` module. As a result, we
-   should do the same, otherwise an error will be raised due to the constants'
-   names clashing. Otherwise, at this point we are pretty much free to flesh
+   name-spaces all of the project within a `Jekyll` module. As a result, it
+   should do the same, otherwise an error raises due to the constants'
+   names clashing. Otherwise, at this point we're pretty much free to flesh
    out the rest of our plugin as much as we would like.
 
 For more information on how to author Jekyll plugins [visit the docs on their
