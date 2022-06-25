@@ -17,6 +17,8 @@
     <meta name="viewport" content="width=device-width">
     <link rel="alternate" type="application/rss+xml" title="Joel Oliveira &raquo; Feed" href="https://www.joeloliveira.com/rss.xml" />
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="dns-prefetch" href="https://images.jro.li">
+    <link rel="dns-prefetch" href="https://ssl.google-analytics.com">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/ico/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/ico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/ico/favicon-16x16.png">
@@ -43,6 +45,8 @@
     {% if page.url %}
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     {% endif %}
+
+    <link rel="preload" href="/assets/css/fonts/roboto-condensed-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 
     {% if page.preload %}
       <link rel="preload" media="(max-width: 414px)" href="{{ page.preload.mobile }}" as="image">
@@ -116,7 +120,7 @@
 
           <div class="text-center md:text-left">
             <h1 class="text-lg mb-2">Hello, I'm Joel. Hi! 👋</h1>
-            <p class="font-vollkorn text-sm text-gray-400 pr-3 md:pr-10">
+            <p class="font-serif text-sm text-gray-400 pr-3 md:pr-10">
               An engineering manager in Boston.
               Lapsed "tweeter" at <a href="https://twitter.com/jayroh" class="text-white">@jayroh</a>.
               Here I write about my family, my (bull)dogs, code and technology, and working on a little passion project named
@@ -148,11 +152,17 @@
         <div class="fin"></div>
       </div>
     </section>
-    <script>
-      var _gaq=[['_setAccount','UA-2546531-2'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
+
+    <script type="text/javascript" async>
+      var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2546531-2']);
+            _gaq.push(['_trackPageview']);
+
+      (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+            })();
     </script>
   </body>
 </html>

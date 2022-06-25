@@ -14,13 +14,6 @@ module.exports = {
         'light-blue-500': '#049CDB',
       },
       fontFamily: {
-        'vollkorn': [
-          'Vollkorn',
-          'Georgia',
-          'Times',
-          '"Times New Roman"',
-          'serif'
-        ],
         'mono': [
           '"Inconsolata"',
           '"Monoco"',
