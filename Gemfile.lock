@@ -39,7 +39,6 @@ GEM
       jekyll (~> 4)
     jekyll-imgproxy-tag (0.3.0)
       jekyll
-    jekyll-postcss-v2 (1.0.1)
     jekyll-sass-converter (2.2.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-twitter-plugin (2.1.0)
@@ -91,7 +90,6 @@ DEPENDENCIES
   jekyll
   jekyll-dotenv
   jekyll-imgproxy-tag
-  jekyll-postcss-v2
   jekyll-twitter-plugin
   kramdown (>= 2.3.0)
   mini_magick

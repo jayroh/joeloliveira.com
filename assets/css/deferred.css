@@ -1,0 +1,16 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .panel-toggle:checked ~ section {
+    @apply left-0 md:left-1/2;
+  }
+
+  .toggle-year:checked ~ ul {
+    @apply max-h-64;
+  }
+}
