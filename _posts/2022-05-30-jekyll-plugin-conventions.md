@@ -13,11 +13,9 @@ preload:
 ---
 
 <picture>
-  <source
-    srcset="{% imgproxy_url path: "/images/jekyll.png", width: 1344 %}"
+  <source srcset="{% imgproxy_url path: "/images/jekyll.png", width: 1344 %}"
     media="(min-width: 413px)" />
-  <img
-    src="{% imgproxy_url path: "/images/jekyll.png", width: 738 %}"
+  <img src="{% imgproxy_url path: "/images/jekyll.png", width: 738 %}"
     alt="Jekyll logo."
     width="369"
     height="208" />
@@ -56,15 +54,12 @@ Naming? Any nuance?
    your files and class-names when you use certain naming conventions.
 
    <picture>
-     <source
-       srcset="{% imgproxy_url path: "/images/naming-gems.png", width: 1344 %}"
+     <source srcset="{% imgproxy_url path: "/images/naming-gems.png", width: 1344 %}"
        media="(min-width: 413px)" />
-     <img
-       src="{% imgproxy_url path: "/images/naming-gems.png", width: 738 %}"
+     <img src="{% imgproxy_url path: "/images/naming-gems.png", width: 738 %}"
        alt="Chart with recommendations for how to name gems."
        width="369"
-       height="208"
-       loading="lazy" />
+       height="208" />
    </picture>
 
    So, if you are naming your plugin "`jekyll-awesome-possum`" your file and

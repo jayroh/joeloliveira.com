@@ -14,11 +14,9 @@ preload:
 
 <figure class="photo-with-caption">
   <picture>
-    <source
-      srcset="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 1344 %}"
+    <source srcset="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 1344 %}"
       media="(min-width: 413px)" />
-    <img
-      src="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 738 %}"
+    <img src="{% imgproxy_url path: "/images/photos/g-td-garden.jpg", resizing_type: 'fill', width: 738 %}"
       alt="G standing in front of TD Garden"
       width="369"
       height="208" />

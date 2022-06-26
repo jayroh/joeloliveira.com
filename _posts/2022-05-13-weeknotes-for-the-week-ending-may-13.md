@@ -69,8 +69,7 @@ rules that prevent doing something like `ssh-copy-id`. Your "event timeline" mig
     src="{% imgproxy_url path: "/images/photos/orange-dots-are-bad.png", width: 738 %}"
     alt="Screenshot of what looked wrong"
     width="369"
-    height="216"
-    loading="lazy" />
+    height="216" />
 </picture>
 
 You can click the button on the right to allow from your/all ip's, or you can turn off this particular rule via:
