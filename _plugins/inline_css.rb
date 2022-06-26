@@ -23,7 +23,15 @@ module Jekyll
     end
 
     def raw_css
-      File.read(full_path)
+      raw_contents = File.read(full_path)
+
+      return raw_contents if replacables.empty?
+
+      replacables.each do |replace|
+        raw_contents = raw_contents.gsub(replace['this'], replace['with'])
+      end
+
+      raw_contents
     end
 
     def full_path
@@ -31,6 +39,10 @@ module Jekyll
       path = "/#{path}" unless path.start_with?("/")
       path = "#{context['site']['destination']}#{path}"
       path
+    end
+
+    def replacables
+      context['site']['inlinecss']['replace']
     end
   end
 end

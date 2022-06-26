@@ -46,10 +46,6 @@
     font-display: optional;
   }
 
-  html {
-    font-family: "Roboto-Condensed","Gotham","Helvetica Neue",Helvetica,Arial sans-serif;
-  }
-
   a {
     @apply transition-colors ease-in duration-200;
   }

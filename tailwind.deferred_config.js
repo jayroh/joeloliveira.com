@@ -7,6 +7,15 @@ module.exports = {
       maxWidth: {
         '24': '6rem',
       },
+      fontFamily: {
+        'sans': [
+          '"Roboto-Condensed"',
+          '"Gotham"',
+          '"Helvetica Neue"',
+          'Helvetica',
+          'Arial sans-serif'
+        ]
+      }
     },
   },
   plugins: []

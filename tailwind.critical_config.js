@@ -9,6 +9,13 @@ module.exports = {
         'light-blue-500': '#049CDB',
       },
       fontFamily: {
+        'sans': [
+          '"Roboto-Condensed"',
+          '"Gotham"',
+          '"Helvetica Neue"',
+          'Helvetica',
+          'Arial sans-serif'
+        ],
         'mono': [
           '"Inconsolata"',
           '"Monoco"',

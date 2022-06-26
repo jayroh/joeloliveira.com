@@ -21,3 +21,7 @@ tailwindcss:
   - input: assets/css/deferred.css
     config: tailwind.deferred_config.js
     minified: true
+inlinecss:
+  replace:
+    - this: url(./font
+      with: url(/assets/css/font
