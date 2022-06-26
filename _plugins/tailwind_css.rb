@@ -41,7 +41,8 @@ Jekyll::Hooks.register :pages, :post_write do |page|
   css_bundles = page.site.config['tailwindcss']
 
   css_bundles.each do |bundle|
-    if /\.css$/ =~ page.url
+    # if it's a css file AND this css bundle we're compiling is for this file
+    if /\.css$/ =~ page.url && page.url.include?(bundle['input'])
       engine = TailwindCss::Engine.new(bundle, page.site.config['destination'])
       engine.process
     end
