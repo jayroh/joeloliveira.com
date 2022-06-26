@@ -3,7 +3,7 @@ module Jekyll
     def initialize(tag_name, css_path, _tokens)
       super
       @css_path = css_path
-      @inlinable = ENV['JEKYLL_ENV'] == 'production' || !!ENV['INLINE_CSS']
+      @inlinable = ENV['JEKYLL_ENV'] == 'production'
     end
 
     def render(context)
