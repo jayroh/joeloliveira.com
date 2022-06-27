@@ -9,7 +9,7 @@ intro: The one I look back on the last 6 months'ish
 photo: ./images/photos/g-td-garden.jpg
 preload:
   mobile: https://images.jro.li/A5pauj1GZo3fAp3YAcIY4Jw6iDOaeBw7EJ_EkYvlvig/rs:fill:738:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL2ctdGQtZ2Fy/ZGVuLmpwZw.jpg
-  desktop: https://images.jro.li/ss3-2gJb-T-uf2J7t-M7EWTPXvEoul-OBXhG7I-rUhM/rs:fill:1214:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL2ctdGQtZ2Fy/ZGVuLmpwZw.jpg
+  desktop: https://images.jro.li/rFiWTqKXxgqrGwUB09xtyok0bJVVMuyHlGX-L607wsU/rs:fill:1344:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL2ctdGQtZ2Fy/ZGVuLmpwZw.jpg
 ---
 
 <figure class="photo-with-caption">

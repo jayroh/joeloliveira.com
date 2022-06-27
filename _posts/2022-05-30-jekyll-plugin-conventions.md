@@ -15,7 +15,7 @@ preload:
 <picture>
   <source srcset="{% imgproxy_url path: "/images/jekyll.png", width: 1344 %}"
     media="(min-width: 413px)" />
-  <img src="{% imgproxy_url path: "/images/jekyll.png", width: 738 %}"
+  <img class="w-full" src="{% imgproxy_url path: "/images/jekyll.png", width: 738 %}"
     alt="Jekyll logo."
     width="369"
     height="208" />
@@ -56,7 +56,7 @@ Naming? Any nuance?
    <picture>
      <source srcset="{% imgproxy_url path: "/images/naming-gems.png", width: 1344 %}"
        media="(min-width: 413px)" />
-     <img src="{% imgproxy_url path: "/images/naming-gems.png", width: 738 %}"
+     <img class="w-full" src="{% imgproxy_url path: "/images/naming-gems.png", width: 738 %}"
        alt="Chart with recommendations for how to name gems."
        width="369"
        height="208" />
