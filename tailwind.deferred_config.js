@@ -1,6 +1,7 @@
 module.exports = {
   content: [
-    './_includes/sidebar.html'
+    './_includes/sidebar.html',
+    './_layouts/post.html'
   ],
   theme: {
     extend: {
