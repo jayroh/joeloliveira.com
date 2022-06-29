@@ -1,4 +1,4 @@
-class PanelToggle {
+export default class PanelToggle {
   constructor(id) {
     this.id = id;
   }
@@ -14,5 +14,3 @@ class PanelToggle {
     }, { once: true });
   }
 }
-
-export default PanelToggle;

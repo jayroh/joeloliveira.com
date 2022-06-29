@@ -3,18 +3,29 @@ module Esbuild
     def initialize(bundle, destination)
       @bundle = bundle
       @input = bundle['input']
-      @output = "#{destination}/#{input}"
+      @destination = destination
       @minified = !!bundle['minified'] ? '--minify' : ''
+      @extra_options = bundle['extra_options']
     end
 
     def process
-      `esbuild #{input} --log-level=silent --bundle --outfile=#{output} #{minified}`
+      `esbuild #{input} --log-level=silent --bundle #{output_option} #{minified} #{extra_options}`
       Jekyll.logger.info "Esbuild:", "Processed #{input}"
     end
 
     protected
 
-    attr_reader :input, :output, :minified
+    attr_reader :bundle, :input, :minified, :destination, :extra_options
+
+    private
+
+    def output_option
+      if bundle['outdir']
+        "--outdir=#{destination}/#{bundle['outdir']}"
+      else
+        "--outfile=#{destination}/#{input}"
+      end
+    end
   end
 end
 
