@@ -23,7 +23,8 @@ tailwindcss:
     minified: true
 esbuild:
   - input: assets/js/deferred.js
-    minified: true
+    outdir: assets/js
+    extra_options: --format=esm --splitting
 inlinecss:
   replace:
     - this: url(./font

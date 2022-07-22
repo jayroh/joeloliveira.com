@@ -1,16 +1,16 @@
-export default class PanelToggle {
-  constructor(id) {
-    this.id = id;
+export class PanelToggle {
+  constructor (id) {
+    this.id = id
   }
 
-  init() {
+  init () {
     document.getElementById(this.id).addEventListener('change', () => {
-      const images = Array.prototype.slice.call(document.querySelectorAll('.lazyload-sidebar'));
+      const images = Array.prototype.slice.call(document.querySelectorAll('.lazyload-sidebar'))
       images.forEach((image) => {
-        image.removeAttribute('src');
-        image.src = image.dataset.src;
-        delete image.dataset.src;
+        image.removeAttribute('src')
+        image.src = image.dataset.src
+        delete image.dataset.src
       })
-    }, { once: true });
+    }, { once: true })
   }
 }

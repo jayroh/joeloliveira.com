@@ -55,7 +55,7 @@
   }
 
   .photo-with-caption {
-    @apply w-full;
+    @apply w-full mb-6;
   }
 
   .photo-with-caption picture,
