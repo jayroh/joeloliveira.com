@@ -35,6 +35,7 @@ Looking back - I am grateful and happy.
     <source srcset="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 412px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 738 %}"
+         decoding="async"
          alt="G posing at Cautaumet Mini-Golf"
          width="369"
          height="656" />
@@ -54,6 +55,7 @@ Looking back - I am grateful and happy.
     <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 412px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 738 %}"
+      decoding="async"
       alt="Me, Sara, G @ Mashpee Commons' Big-Ass Chair"
       width="369"
       height="656" />
@@ -73,6 +75,7 @@ Looking back - I am grateful and happy.
     <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 738 %}"
+      decoding="async"
       alt="Joel and Sara, Woods Hole"
       width="369"
       height="656" />
