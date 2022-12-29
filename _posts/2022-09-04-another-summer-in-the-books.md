@@ -7,9 +7,6 @@ permalink: 2022/09/04/another-summer-in-the-books.html
 alias: 2022/09/04/another-summer-in-the-books
 intro: Wherein I lament my pavlovian response to a calendar
 photo: ./images/photos/joel_gray_bumper_boats_22.jpg
-preload:
-  mobile: https://images.jro.li/FoS2CDl4n6isLusht_vmjk464lFcjDZ4gPLtMC-K5QM/rs:fill:738:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL2dyYXlfMjIu/anBn.jpg
-  desktop: https://images.jro.li/rdmoSPmSd2-AlowyjW6y2-8DAouEvELDL6eJrMKt5Bk/rs:fill:1344:/czM6Ly93d3ctam9l/bG9saXZlaXJhLWNv/bS9pbWFnZXMvcGhv/dG9zL2dyYXlfMjIu/anBn.jpg
 ---
 
 As we close the chapter on the summer of '22 I'm left dealing with the feelings
@@ -31,12 +28,16 @@ Looking back - I am grateful and happy.
 
 <figure class="photo-with-caption">
   <picture>
-    <source srcset="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 1344 %}"
-      media="(min-width: 413px)" />
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 412px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 412px)" />
+    <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/gray_22.jpg", resizing_type: 'fill', width: 738 %}"
-      alt="G posing at Cautaumet Mini-Golf"
-      width="369"
-      height="656" />
+         alt="G posing at Cautaumet Mini-Golf"
+         width="369"
+         height="656" />
   </picture>
 
   <figcaption>
@@ -46,8 +47,12 @@ Looking back - I am grateful and happy.
 
 <figure class="photo-with-caption">
   <picture>
-    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 1344 %}"
-      media="(min-width: 413px)" />
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 412px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 412px)" />
+    <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/joel_sara_gray_22.jpg", resizing_type: 'fill', width: 738 %}"
       alt="Me, Sara, G @ Mashpee Commons' Big-Ass Chair"
       width="369"
@@ -61,8 +66,12 @@ Looking back - I am grateful and happy.
 
 <figure class="photo-with-caption">
   <picture>
-    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 1344 %}"
-      media="(min-width: 413px)" />
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
+    <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/joel_sara_22.jpg", resizing_type: 'fill', width: 738 %}"
       alt="Joel and Sara, Woods Hole"
       width="369"

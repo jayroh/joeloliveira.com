@@ -51,8 +51,18 @@ layout: default
 </article>
 
 <footer class="text-center flex flex-row items-center justify-center my-8 px-4">
-  <img data-src="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64 %}" alt="A photo of me, Joel Oliveira, smiling." width="64" height="64" class="lazyload rounded-full inline-block mr-4">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64, format: 'avif' %}" type="image/avif" />
+    <source srcset="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64, format: 'webp' %}" type="image/webp" />
 
+    <!--[if IE 9]></video><![endif]-->
+    <img src="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64 %}"
+      class="lazyload rounded-full inline-block mr-4"
+      alt="A photo of me, Joel Oliveira, smiling."
+      width="64"
+      height="64" />
+  </picture>
   <p>
     Have feedback? Sometimes I check twitter (<a href="https://twitter.com/jayroh" class="underline hover:bg-blue-50">@jayroh</a>). Contact me there.
   </p>
