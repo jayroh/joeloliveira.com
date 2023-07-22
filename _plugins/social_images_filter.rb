@@ -5,13 +5,13 @@ module SocialMedia
   module PhotoFilter
     def facebook_image(input)
       input
-        .gsub(/^\.\//, '')
+        .gsub(%r{^\./}, '')
         .gsub(/images/, 'images/social/facebook')
     end
 
     def twitter_image(input)
       input
-        .gsub(/^\.\//, '')
+        .gsub(%r{^\./}, '')
         .gsub(/images/, 'images/social/twitter')
     end
   end

@@ -66,7 +66,7 @@ module SocialMedia
     end
 
     def restore_original
-      FileUtils.mv( "#{image_path.source}.bak", image_path.source)
+      FileUtils.mv("#{image_path.source}.bak", image_path.source)
     end
 
     def create_directory

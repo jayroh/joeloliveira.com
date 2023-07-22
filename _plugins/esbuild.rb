@@ -1,16 +1,18 @@
+# frozen_string_literal: true
+
 module Esbuild
   class Engine
     def initialize(bundle, destination)
       @bundle = bundle
       @input = bundle['input']
       @destination = destination
-      @minified = !!bundle['minified'] ? '--minify' : ''
+      @minified = !bundle['minified'].nil? ? '--minify' : ''
       @extra_options = bundle['extra_options']
     end
 
     def process
       `esbuild #{input} --log-level=silent --bundle #{output_option} #{minified} #{extra_options}`
-      Jekyll.logger.info "Esbuild:", "Processed #{input}"
+      Jekyll.logger.info 'Esbuild:', "Processed #{input}"
     end
 
     protected

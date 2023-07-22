@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Alias Generator for Posts.
 #
 # Generates redirect pages for posts with aliases set in the YAML Front Matter.
@@ -49,7 +51,7 @@ module Jekyll
     end
 
     def generate_aliases(destination_path, aliases)
-      alias_paths ||= Array.new
+      alias_paths ||= []
       alias_paths << aliases
       alias_paths.compact!
 
@@ -57,10 +59,10 @@ module Jekyll
         alias_path = File.join('/', alias_path.to_s)
 
         alias_dir  = File.extname(alias_path).empty? ? alias_path : File.dirname(alias_path)
-        alias_file = File.extname(alias_path).empty? ? "index.html" : File.basename(alias_path)
+        alias_file = File.extname(alias_path).empty? ? 'index.html' : File.basename(alias_path)
 
         fs_path_to_dir = File.join(@site.dest, alias_dir)
-        alias_sections = alias_dir.split('/')[1..-1]
+        alias_sections = alias_dir.split('/')[1..]
 
         FileUtils.mkdir_p(fs_path_to_dir)
 
@@ -76,16 +78,16 @@ module Jekyll
     end
 
     def alias_template(destination_path)
-<<-EOF
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="canonical" href="#{destination_path}"/>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="refresh" content="0;url=#{destination_path}" />
-</head>
-</html>
-EOF
+      <<~EOF
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <link rel="canonical" href="#{destination_path}"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="refresh" content="0;url=#{destination_path}" />
+        </head>
+        </html>
+      EOF
     end
   end
 
@@ -93,11 +95,11 @@ EOF
     require 'set'
 
     def modified?
-      return false
+      false
     end
 
-    def write(dest)
-      return true
+    def write(_dest)
+      true
     end
   end
 end

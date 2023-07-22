@@ -1,4 +1,8 @@
+# frozen_string_literal: true
+
 module Jekyll
+  # Class that handles the inline_css tag. Inlining CSS is a great way to
+  # reduce network requests to external CSS files.
   class InlineCssTag < Liquid::Tag
     def initialize(tag_name, css_path, _tokens)
       super
@@ -9,9 +13,9 @@ module Jekyll
     def render(context)
       @context = context
 
-      return %Q{<style type="text/css" media="screen">#{raw_css}</style>} if inlinable?
+      return %(<style type="text/css" media="screen">#{raw_css}</style>) if inlinable?
 
-      %Q{<link rel="stylesheet" href="#{css_path}">}
+      %(<link rel="stylesheet" href="#{css_path}">)
     end
 
     private
@@ -19,7 +23,7 @@ module Jekyll
     attr_reader :css_path, :inlinable, :context
 
     def inlinable?
-      inlinable && File.exists?(full_path)
+      inlinable && File.exist?(full_path)
     end
 
     def raw_css
@@ -36,9 +40,8 @@ module Jekyll
 
     def full_path
       path = File.expand_path(css_path.strip)
-      path = "/#{path}" unless path.start_with?("/")
-      path = "#{context['site']['destination']}#{path}"
-      path
+      path = "/#{path}" unless path.start_with?('/')
+      "#{context['site']['destination']}#{path}"
     end
 
     def replacables
