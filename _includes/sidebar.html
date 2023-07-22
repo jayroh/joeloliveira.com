@@ -1,8 +1,8 @@
     <input type="checkbox" name="panel-toggle" id="panel-toggle" class="panel-toggle hidden">
 
-    <section id="sidebar" class="rounded bg-zinc-800 fixed w-full md:w-1/2 top-0 bottom-0 overflow-y-auto transition-all duration-200 ease-in">
-      <header class="rounded shadow-lg bg-zinc-900 w-full h-10 flex items-center justify-left">
-        <label for="panel-toggle" class="cursor-pointer inline ml-6">
+    <section id="sidebar" class="fixed bottom-0 top-0 w-full overflow-y-auto rounded bg-zinc-800 transition-all duration-200 ease-in md:w-1/2">
+      <header class="justify-left flex h-10 w-full items-center rounded bg-zinc-900 shadow-lg">
+        <label for="panel-toggle" class="ml-6 inline cursor-pointer">
           <img
             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
             class="lazyload-sidebar"
@@ -14,12 +14,12 @@
       </header>
 
       <div class="text-white">
-        <div class="flex flex-col md:flex-row items-center justify-center p-6 border-b-4 border-zinc-900">
+        <div class="flex flex-col items-center justify-center border-b-4 border-zinc-900 p-6 md:flex-row">
 
           <a href="/" class="block md:pr-6">
             <img
               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-              class="rounded-full md:w-48 mb-4 md:mb-auto max-w-24 lazyload-sidebar"
+              class="max-w-24 lazyload-sidebar mb-4 rounded-full md:mb-auto md:w-48"
               alt="A photo of me, Joel Oliveira, smiling."
               width="100"
               height="100"
@@ -27,8 +27,8 @@
           </a>
 
           <div class="text-center md:text-left">
-            <h1 class="text-lg mb-2">Hello, I'm Joel. Hi! 👋</h1>
-            <p class="font-serif text-sm text-gray-400 pr-3 md:pr-10">
+            <h1 class="mb-2 text-lg">Hello, I'm Joel. Hi! 👋</h1>
+            <p class="pr-3 font-serif text-sm text-gray-400 md:pr-10">
               An engineering manager in Boston.
               Lapsed "tweeter" at <a href="https://twitter.com/jayroh" class="text-white">@jayroh</a>.
               Here I write about my family, my (bull)dogs, code and technology, and working on a little passion project named
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        {% assign years= "2022|2021|2016|2014|2013|2012|2011|2010|2009|2008|2007|2006" | split: "|" %}
+        {% assign years= "2023|2022|2021|2016|2014|2013|2012|2011|2010|2009|2008|2007|2006" | split: "|" %}
         {% for year in years %}
           <div class="year">
             <h2 class="border-b border-stone-500 px-6 py-2 text-lg">
@@ -50,7 +50,7 @@
               {% for post in site.posts %}
                 {% capture post_year %}{{post.date | date: "%Y"}}{% endcapture %}
                 {% if post_year == year %}
-                  <li><a href="{{ post.url }}" class="text-sm px-6 py-1 block hover:bg-zinc-900">{{ post.title }}</a></li>
+                  <li><a href="{{ post.url }}" class="block px-6 py-1 text-sm hover:bg-zinc-900">{{ post.title }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>
