@@ -22,7 +22,7 @@ place is perfect, and each individual's journey is their own, but I'm grateful
 for *my* time here. To that, I say congrats to her, and I am forever grateful
 for all she's done. Kudos!
 
-<div class="flex justify-center">
+<div class="flex justify-center overflow-hidden">
 {% twitter https://twitter.com/ezCater/status/1682444236216582144 %}
 </div>
 
