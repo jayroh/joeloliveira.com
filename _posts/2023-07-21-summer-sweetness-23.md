@@ -40,9 +40,7 @@ in. Day out. You are all remarkable people!)
 <figure class="photo-with-caption">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 738 %}"
@@ -60,9 +58,7 @@ in. Day out. You are all remarkable people!)
 <figure class="photo-with-caption">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-capt-scott.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-capt-scott.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-capt-scott.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-capt-scott.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/ez-capt-scott.jpg", resizing_type: 'fill', width: 738 %}"
@@ -80,9 +76,7 @@ in. Day out. You are all remarkable people!)
 <figure class="photo-with-caption">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-boating.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-boating.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-boating.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-boating.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/ez-boating.jpg", resizing_type: 'fill', width: 738 %}"
@@ -100,9 +94,7 @@ in. Day out. You are all remarkable people!)
 <figure class="photo-with-caption">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-thumbs-up.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-thumbs-up.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-thumbs-up.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-thumbs-up.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/ez-thumbs-up.jpg", resizing_type: 'fill', width: 738 %}"
@@ -120,9 +112,7 @@ in. Day out. You are all remarkable people!)
 <figure class="photo-with-caption">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-growth-plat.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-growth-plat.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-growth-plat.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-growth-plat.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/ez-growth-plat.jpg", resizing_type: 'fill', width: 738 %}"
@@ -140,9 +130,7 @@ in. Day out. You are all remarkable people!)
 <figure class="photo-with-caption">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-derek.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-derek.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-derek.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-derek.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/ez-joel-derek.jpg", resizing_type: 'fill', width: 738 %}"
@@ -160,9 +148,7 @@ in. Day out. You are all remarkable people!)
 <figure class="photo-with-caption">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-marco.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-marco.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
-    <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-marco.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
     <source srcset="{% imgproxy_url path: "/images/photos/ez-joel-marco.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: "/images/photos/ez-joel-marco.jpg", resizing_type: 'fill', width: 738 %}"
