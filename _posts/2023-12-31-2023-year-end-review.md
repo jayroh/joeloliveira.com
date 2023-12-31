@@ -41,6 +41,26 @@ After 20+ years of neglecting a previous diagnosis of attention deficit disorder
 
 Last winter saw my activity take a dip, and some weight I'd previously lost, was found! The decision to double down on weight-lifting and engaging with Form Health righted the ship. I'm down my lowest number since the turn of the decade, which I'm pleased with. On a similar note to the one above, proper medication contributed to my being able to live a more "normal" human life. I _will_ write more about this in the future as it deserves its own post.
 
+<figure class="photo-with-caption">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/joel-flex.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel-flex.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel-flex.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/joel-flex.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
+    <!--[if IE 9]></video><![endif]-->
+    <img src="{% imgproxy_url path: "/images/photos/joel-flex.jpg", resizing_type: 'fill', width: 738 %}"
+      decoding="async"
+      alt="It's me. In a gym. Taking a selfie."
+      width="369"
+      height="656" />
+  </picture>
+
+  <figcaption>
+    This will be the first (and probably last) time I will ever put a selfie of myself out there, flexing. So, enjoy.
+  </figcaption>
+</figure>
+
 *The bad:*
 
 For most of the year we battled through a cancer scare in our family. (I won't get into specifics as some things deserve the privacy 🙂.) I won't bury the lede, but everyone is ok and we are on the other side of the worst of it. Several procedures and many trips to the doctor have put us in a place where the risk is approaching zero. We're not there yet, but almost. Needless to say the ordeal was ... a lot. As a result I ended up taking some time away from work when everything just got to be too much. I am grateful to work somewhere that views their employees as people with lives both rich and complicated and sometimes rocky, bumpy, overwhelming.
@@ -49,11 +69,49 @@ For most of the year we battled through a cancer scare in our family. (I won't g
 
 This past month my last 2 wisdom teeth were finally pulled. Folks. Do it _all_ when you're a young'n. Get them ALL pulled. Don't weight until you're in your 40's. Trust me when I say it's a bad bad bad bad idea to wait.
 
+<figure class="photo-with-caption">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/pearl-in-wagon.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/pearl-in-wagon.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/pearl-in-wagon.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/pearl-in-wagon.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
+    <!--[if IE 9]></video><![endif]-->
+    <img src="{% imgproxy_url path: "/images/photos/pearl-in-wagon.jpg", resizing_type: 'fill', width: 738 %}"
+      decoding="async"
+      alt="The last photo I have of Pearl."
+      width="369"
+      height="656" />
+  </picture>
+
+  <figcaption>
+    R.I.P. Pearlie. We miss you today, and always.
+  </figcaption>
+</figure>
+
 ## Work
 
 The 4th anniversary at my day job came and went. This was a huge milestone for me as, historically, to get a little antsy every few years. The challenges and opportunities never failed to keep me engaged, and I consider [the people I work with on a day-to-day basis high character, high intellect, and highly empathetic human beings](https://joeloliveira.com/2023/07/21/summer-sweetness-23). If the "tech" world doesn't make you ill [then consider this an endorsement](https://www.ezcater.com/company/careers/). We welcomed our first cohort of interns since the pandemic began and looking back on this year, consider that experience to be one of the most rewarding parts. (Shout out to [Manuela](https://www.linkedin.com/in/manuela-sanchez947/) and [Tilon](https://www.linkedin.com/in/tilonbobb1/)! And shout out to [Hack.Diversity](https://www.hackdiversity.com/) - an absolutely first-class org!)
 
 On the [Shubox](https://shubox.io) front, I made the pivot from "bring your own bucket" to "buy a bucket w/Shubox" and finally turned the feature flag to 100%. I continue to work on it, but admit that, with some hindsight, I [would have done some things very differently when I first started out](https://joeloliveira.com/2023/11/14/challenges-in-solopreneurship). This coming year will be my put-up-or-shut-up year. Who knows how things will look in December of 2024.
+
+<figure class="photo-with-caption">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
+    <!--[if IE 9]></video><![endif]-->
+    <img src="{% imgproxy_url path: "/images/photos/ez-po-sq.jpg", resizing_type: 'fill', width: 738 %}"
+      decoding="async"
+      alt="Group photo in Post Office Square (Boston)."
+      width="369"
+      height="656" />
+  </picture>
+
+  <figcaption>
+    Group photo of our team back in July during our <a href="/2023/07/21/summer-sweetness-23">Summer Sweetness week</a>.
+  </figcaption>
+</figure>
 
 ## Fun
 
@@ -71,6 +129,26 @@ On the [Shubox](https://shubox.io) front, I made the pivot from "bring your own 
   * The Killer
   * The Holdovers
   * American Fiction
+
+<figure class="photo-with-caption">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/g-celtics.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/g-celtics.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/g-celtics.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/g-celtics.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
+    <!--[if IE 9]></video><![endif]-->
+    <img src="{% imgproxy_url path: "/images/photos/g-celtics.jpg", resizing_type: 'fill', width: 738 %}"
+      decoding="async"
+      alt="G flexing in his JB jersey, at the Celtics game"
+      width="369"
+      height="656" />
+  </picture>
+
+  <figcaption>
+    💪 CELTICS! 🍀 💪
+  </figcaption>
+</figure>
 
 ## Conclusion
 
