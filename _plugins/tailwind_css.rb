@@ -46,7 +46,7 @@ module TailwindCss
     private
 
     def run_tailwind
-      `tailwindcss --input #{tempfile.path} --output #{output} #{config}`
+      `npx tailwindcss --input #{tempfile.path} --output #{output} #{config}`
       Jekyll.logger.info 'Tailwind:', "Processed #{input}"
     end
 
