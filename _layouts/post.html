@@ -12,11 +12,11 @@ layout: default
       method="post"
       id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
-      class="text-center bg-gray-100 rounded-lg p-8 mt-8"
+      class="mt-8 rounded-lg bg-gray-100 p-8 text-center"
       target="_blank"
       novalidate>
 
-    <h4 class="font-bold text-gray-700 mb-4">
+    <h4 class="mb-4 font-bold text-gray-700">
       I'm working on something called
       <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">shubox.io</a>!
     </h4>
@@ -32,10 +32,10 @@ layout: default
       <div class="mc-field-group input">
         <label for="mce-EMAIL" class="mt-2">your email address: </label>
         <input type="email" value="" name="EMAIL"
-          class="required email rounded border-solid border-gray-400 border text-center mt-2" required="true" id="mce-EMAIL"
+          class="required email mt-2 rounded border border-solid border-gray-400 text-center" required="true" id="mce-EMAIL"
           placeholder="example@email.com">
         <input type="submit" value="subscribe" name="subscribe"
-          id="mc-embedded-subscribe" class="button rounded border-solid border-gray-400 border text-center px-4 mt-2">
+          id="mc-embedded-subscribe" class="button mt-2 rounded border border-solid border-gray-400 px-4 text-center">
       </div>
 
       <div id="mce-responses">
@@ -50,7 +50,7 @@ layout: default
   </form>
 </article>
 
-<footer class="text-center flex flex-row items-center justify-center my-8 px-4">
+<footer class="my-8 flex flex-row items-center justify-center px-4 text-center">
   <picture>
     <!--[if IE 9]><video style="display: none;"><![endif]-->
     <source srcset="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64, format: 'avif' %}" type="image/avif" />
@@ -58,12 +58,12 @@ layout: default
 
     <!--[if IE 9]></video><![endif]-->
     <img src="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64 %}"
-      class="lazyload rounded-full inline-block mr-4"
+      class="lazyload mr-4 inline-block rounded-full"
       alt="A photo of me, Joel Oliveira, smiling."
       width="64"
       height="64" />
   </picture>
   <p>
-    Have feedback? Sometimes I check twitter (<a href="https://twitter.com/jayroh" class="underline hover:bg-blue-50">@jayroh</a>). Contact me there.
+    Have feedback? These days I am found on Mastodon (<a href="https://ruby.social/@jayroh" class="underline hover:bg-blue-50">@jayroh</a>). Contact me there.
   </p>
 </footer>

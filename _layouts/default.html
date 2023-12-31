@@ -22,7 +22,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/ico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/ico/favicon-16x16.png">
     <link rel="manifest" href="/images/ico/site.webmanifest">
-    <meta name="twitter:site" content="@jayroh">
 
     {% if page.title %}
       <meta property="og:type" content="article" />
@@ -73,16 +72,16 @@
     <script async defer data-website-id="f1534845-c39b-4526-a522-03eb460b7739" src="https://umami.jro.li/umami.js"></script>
   </head>
   <body class="blog{% if page.id %} post{% endif %}">
-    <header class="bg-gray-100 border-solid border-b border-white py-2 fixed w-full top-0">
-      <div class="m-0 mx-auto py-1 max-w-2xl flex">
-        <h1 class="text-sm font-bold tracking-widest uppercase text-gray-400 grow ml-2 md:ml-auto">
+    <header class="fixed top-0 w-full border-b border-solid border-white bg-gray-100 py-2">
+      <div class="m-0 mx-auto flex max-w-2xl py-1">
+        <h1 class="ml-2 grow text-sm font-bold uppercase tracking-widest text-gray-400 md:ml-auto">
           <a href="/" class="hover:text-gray-600">
             Joel
-            <span class="text-xs font-normal italic normal-case tracking-normal">Always one syllable, sometimes "@jayroh"</span>
+            <span class="text-xs font-normal normal-case italic tracking-normal">Always one syllable, sometimes "@jayroh"</span>
           </a>
         </h1>
 
-        <label for="panel-toggle" class="cursor-pointer mr-2 md:mr-auto flex items-center">
+        <label for="panel-toggle" class="mr-2 flex cursor-pointer items-center md:mr-auto">
           <svg viewBox='0 0 10 8' width='20'>
             <path d='M1 1h8M1 4h 8M1 7h8'
                   stroke='#27272A'
