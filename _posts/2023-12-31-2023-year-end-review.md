@@ -115,13 +115,13 @@ On the [Shubox](https://shubox.io) front, I made the pivot from "bring your own 
 
 ## Fun
 
-* Made it to Terrificon and met some childhood heroes. Will absolutely do it again in '24. ([JIM F'ING LEE](https://www.instagram.com/p/C1KGmdOuuiG/?hl=en)? OKAY!)
-* Took G to several Boston Celtics games. Some W's. Most L's. But that's ok because each experience was a blast.
-* Watched G perform in a breakdance recital, and his first afterschool theater play. He's a born show-man, this kid.
+* Made it to [Terrificon](https://www.terrificon.com/) and met some childhood heroes. Will absolutely do it again in '24. ([Jim Lee](https://www.instagram.com/p/C1KGmdOuuiG/?hl=en)?!? OKAY!)
+* Took G to several Boston Celtics games. Some W's. Most L's. But that's okay because each experience was a blast.
+* Watched G perform in a breakdance recital, and his first after-school play. He's a born showman, this kid.
 * Set up my home office, permanently, as a combo standing and treadmill desk. My 13 year old Herman Miller Aeron chair now belongs to a new home, thanks to CraigsList.
 * Welcomed a new family member, our 4th English Bulldog - Ruth, or Ruthie, or "Rudabega", or "Luda-Bega", or "Ru-Ru Cakes". There is still an abundance of puppy energy but she's as sweet as she is crazy.
 * Met friends at as many Treehouse brewery locations as possible. I miss my friends. I talk to many of them every day, but I miss them.
-* Bought too many comic books. "Too many" may be debatable.
+* Bought too many comic books. "Too many".
 * Saw [Botch, Converge, and Cave In](https://www.instagram.com/botch_band/reel/CzmAaEgJ3CY/) at the Roadrunner as part of Botch's reunion tour. Another bucket-list band ✅.
 * [Saw several movies](https://letterboxd.com/jayr0h/). Standouts:
   * Across the Spider-Verse
