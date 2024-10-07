@@ -10,7 +10,7 @@ intro: Where I play with an S3 surrogate
 
 To say that I'm interested in or curious about object storage in the cloud is an understatement. I work on an app in my spare time that acts as an abstraction layer on top of Amazon S3 ([Shubox](https://shubox.io) - go check it out). So, yes, I enjoy looking into anything and everything in that space.
 
-Something that's been on my radar for a long while now, are the self-hosted S3 clones that have popped up over the last several years. The bigger one of them would have to be Minio. They've been around for about 10 years now and have grown themselves into a proper enterprise software solution. Good for them. Being the "on-prem S3 company" is nothing to scoff at.
+Something that's been on my radar for a long while now, are the self-hosted S3 clones that have popped up over the last several years. The bigger one of them would have to be [Minio](https://min.io/). They've been around for about 10 years now and have grown themselves into a proper enterprise software solution. Good for them. Being the "on-prem S3 company" is nothing to scoff at.
 
 But I am not of that scale.  I am of the ... hobbyiest at home ... scale. I wouldn't even register on a scale. Anywho ...
 
