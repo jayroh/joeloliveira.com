@@ -49,6 +49,8 @@ GEM
     jekyll-twitter-plugin (2.1.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll-youtube (1.0.0)
+      jekyll
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -98,6 +100,7 @@ DEPENDENCIES
   jekyll-dotenv
   jekyll-imgproxy-tag
   jekyll-twitter-plugin
+  jekyll-youtube
   kramdown (>= 2.3.0)
   mini_magick
   pp
