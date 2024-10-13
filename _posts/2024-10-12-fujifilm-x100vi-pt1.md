@@ -54,10 +54,6 @@ you can change or further update in the "Movie" context.
 
 As a result, always change the settings for either where it is best applied.
 
-Tip from the [pal2tech YouTube video].
-
-[pal2tech YouTube video]: https://youtu.be/xkBbQU647Ec?t=123&si=jacmm_3Zuj8REB3W
-
 ## Still Images: Miscellaneous Settings
 
 When going through all of the configuration options, there are some things I
