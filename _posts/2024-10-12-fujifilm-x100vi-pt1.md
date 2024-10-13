@@ -17,15 +17,17 @@ walked around a little bit with a Nikon DSLR many years ago, something about
 the size of this little camera paired with the features struck a chord. At that
 time I thought, "I must have this". The issue upon completing said thought was
 that this camera, unless you pre-ordered at the moment of its announcement,
-remain on back-order for months.
+would remain on back-order for months.
 
-So, I placed my order, and I waited.
+Undeterred, I placed my order. And I waited.
 
 That was 7 months ago.
 
+...
+
 Last weekend it came in.
 
-## How do I use this thing?
+## Ok. How do I use this thing?
 
 Because, the answer to which, is - I haven't the foggiest.
 
