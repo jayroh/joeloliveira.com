@@ -34,6 +34,14 @@ memory.)
   through common settings with the control ring while you are shooting. Eg:
   cycling through different "film simulations" you can choose (sepia, black and
   white, etc).
+
+  An example of the utility of "function two" is providing fast access to
+  "tele-conv" (or "teleconverter"). To go from "off" to 70mm or 50mm:
+
+  1. Press function two on the front of the camera
+  2. Cycle through the options to "tele-conv"
+  3. Now when you're ready to shoot, turn the control ring to zoom in with 50mm
+     to 70mm modes.
 * Around the function two button is a little toggle where you can switch
   between your optical viewfinder and your electrical viewfinder.
 * Between the control ring and the body is the aperture ring.
