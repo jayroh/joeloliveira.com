@@ -1,7 +1,7 @@
 /* global lazySizes */
+import 'lazysizes'
 window.lazySizesConfig = window.lazySizesConfig || {}
 window.lazySizesConfig.init = false
-import 'lazysizes'
 lazySizes.init()
 
 import('./panel_toggle.js').then(({ PanelToggle }) => {

@@ -1,12 +1,33 @@
 ---
-title: Fujifilm x100vi Part 1. Introduction
+title: "Fujifilm x100vi Part 1: Introduction"
 category: blog, camera, photography
 author: Joel
 layout: post
 permalink: 2024/10/12/fujifilm-x100vi-pt1.html
 alias: 2024/10/12/fujifilm-x100vi-pt1
 intro: Where I get familiar with a new camera
+photo: ./images/photos/fujifilm_x100vi.jpg
 ---
+
+<figure class="photo-with-caption">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{% imgproxy_url path: "/images/photos/fujifilm_x100vi.jpg", resizing_type: 'fill', width: 1344, format: 'avif' %}" type="image/avif" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/fujifilm_x100vi.jpg", resizing_type: 'fill', width: 1344, format: 'webp' %}" type="image/webp" media="(min-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/fujifilm_x100vi.jpg", resizing_type: 'fill', width: 738, format: 'avif' %}" type="image/avif" media="(max-width: 413px)" />
+    <source srcset="{% imgproxy_url path: "/images/photos/fujifilm_x100vi.jpg", resizing_type: 'fill', width: 738, format: 'webp' %}" type="image/webp" media="(max-width: 413px)" />
+    <!--[if IE 9]></video><![endif]-->
+    <img src="{% imgproxy_url path: "/images/photos/fujifilm_x100vi.jpg", resizing_type: 'fill', width: 738 %}"
+      decoding="async"
+      alt="Fujifilm X100VI camera sitting on my window ledge, backlit by muted sunlight"
+      width="369"
+      height="656" />
+  </picture>
+
+  <figcaption>
+    Photo of the Fujifilm X100VI camera, taken with a (clearly inferior) iPhone 14 camera
+  </figcaption>
+</figure>
 
 I bought a new camera.
 
