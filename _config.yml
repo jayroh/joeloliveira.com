@@ -1,10 +1,13 @@
 plugins:
+  - jekyll-archives
   - jekyll-dotenv
   - jekyll-imgproxy-tag
   - jekyll-twitter-plugin
   - jekyll-youtube
 url: https://www.joeloliveira.com
 name: My name is Joel
+include:
+  - _redirects
 highlighter: pygments
 description: >
   An eng manager working at ezCater during the day,
@@ -30,3 +33,11 @@ inlinecss:
   replace:
     - this: url(./font
       with: url(/assets/css/font
+jekyll-archives:
+  enabled:
+    - tags
+    - categories
+  layout: archive
+  permalinks:
+    tag: '/tag/:name/'
+    category: '/category/:name/'

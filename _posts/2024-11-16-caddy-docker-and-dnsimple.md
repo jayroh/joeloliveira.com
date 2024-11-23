@@ -6,6 +6,10 @@ layout: post
 permalink: 2024/11/16/caddy-docker-and-dnsimple.html
 alias: 2024/11/16/caddy-docker-and-dnsimple
 intro: Where I get Caddy to work with DNSimple's TLS challenge
+tags:
+  - dev
+  - homelab
+  - self-hosting
 ---
 
 "I'm experimenting wth Caddy as a replacement for Nginx."

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="author" content="Joel Oliveira">
+    <meta name="description" content="Posts tagged with ''">
+    <meta name="viewport" content="width=device-width">
+    <link rel="alternate" type="application/rss+xml" title="Joel Oliveira &raquo; Feed" href="https://www.joeloliveira.com/rss.xml" />
+    {% inline_css /assets/css/critical.css %}
+    <link rel="dns-prefetch" href="https://images.jro.li">
+    <link rel="dns-prefetch" href="https://ssl.google-analytics.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="/images/ico/site.webmanifest">
+
+    {% if page.title %}
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content="{{ page.title }}" />
+      <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+      <meta property="og:type" content="website" />
+    {% endif %}
+
+    {% if page.intro %}
+      <meta property="og:description" content="{{ page.intro }}">
+      <meta name="twitter:description" content="{{ page.intro }}">
+    {% endif %}
+
+    {% if site.title %}
+      <meta property="og:site_name" content="{{ site.title }}" />
+    {% endif %}
+
+    {% if page.url %}
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {% endif %}
+
+    <link rel="preload" href="/assets/css/fonts/roboto-condensed-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    {% if page.preload %}
+      <link rel="preload" media="(max-width: 414px)" href="{{ page.preload.mobile }}" as="image">
+      <link rel="preload" media="(min-width: 413px)" href="{{ page.preload.desktop }}" as="image">
+    {% elsif site.posts.first.preload %}
+      <link rel="preload" media="(max-width: 414px)" href="{{ site.posts.first.preload.mobile }}" as="image">
+      <link rel="preload" media="(min-width: 413px)" href="{{ site.posts.first.preload.desktop }}" as="image">
+    {% endif %}
+
+    {% if page.photo %}
+      <meta property="og:image" content="{{ site.url }}/{{ page.photo | facebook_image }}" />
+      <meta name="twitter:image" content="{{ site.url }}/{{ page.photo | twitter_image }}">
+      <meta name="twitter:image:width" content= "1024" />
+      <meta name="twitter:image:height" content= "512" />
+      <meta name="twitter:card" content="summary_large_image">
+    {% endif %}
+
+    {% if page.date %}
+      <meta property="article:published_time" content="{{page.date | date_to_xmlschema}}" />
+    {% endif %}
+
+    {% if site.owner_link %}
+      <meta property="article:author" content="{{ site.owner_link }}" />
+    {% endif %}
+  </head>
+  <body class="blog{% if page.id %} post{% endif %}">
+    <header class="fixed top-0 w-full border-b border-solid border-white bg-gray-100 py-2">
+      <div class="m-0 mx-auto flex max-w-2xl py-1">
+        <h1 class="ml-2 grow text-sm font-bold uppercase tracking-widest text-gray-400 md:ml-auto">
+          <a href="/" class="hover:text-gray-600">
+            Joel
+            <span class="text-xs font-normal normal-case italic tracking-normal">Always one syllable, sometimes "@jayroh"</span>
+          </a>
+        </h1>
+
+        <label for="panel-toggle" class="mr-2 flex cursor-pointer items-center md:mr-auto">
+          <svg viewBox="0 0 10 8" width="20">
+            <path d="M1 1h8M1 4h 8M1 7h8"
+                  stroke="#27272A"
+                  stroke-width="2"
+                  stroke-linecap="round"/>
+          </svg>
+        </label>
+      </div>
+    </header>
+
+    <section class="pt-12">
+      <div class="mx-auto max-w-2xl px-3 md:px-0">
+        {% for post in page.posts %}
+          <article>
+            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <h3>
+              {{ post.date | date_to_string }}
+
+              {% for tag in post.tags %}
+              <span class="inline-block px-4 text-gray-200 not-italic">&#10625;</span>
+              <a href="/tag/{{ tag | downcase | slugify }}" class="inline-block border-solid border-blue-200 border-b-2 px-1 pt-1 hover:bg-blue-100">#{{ tag }}</a>
+              {% endfor %}
+            </h3>
+
+            {{ post.content | lazy_load_images }}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    {% include sidebar.html %}
+
+    <link rel="stylesheet" href="/assets/css/deferred.css" media="print" onload="this.media='all'">
+    <script src="/assets/js/deferred.js" type="module" defer></script>
+  </body>
+</html>

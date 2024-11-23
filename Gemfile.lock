@@ -39,6 +39,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-archives (2.2.1)
+      jekyll (>= 3.6, < 5.0)
     jekyll-dotenv (0.2.0)
       dotenv (~> 2.7)
       jekyll (~> 4)
@@ -97,6 +99,7 @@ PLATFORMS
 DEPENDENCIES
   albino
   jekyll
+  jekyll-archives
   jekyll-dotenv
   jekyll-imgproxy-tag
   jekyll-twitter-plugin

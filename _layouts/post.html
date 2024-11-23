@@ -4,50 +4,16 @@ layout: default
 
 <article>
   <h1>{{ page.title }}</h1>
-  <h3>{{ page.date | date_to_string }}</h3>
+  <h3>
+    {{ page.date | date_to_string }}
+
+    {% for tag in page.tags %}
+    <span class="inline-block px-4 text-gray-200 not-italic">&#10625;</span>
+    <a href="/tag/{{ tag | downcase | slugify }}" class="border-solid border-blue-200 border-b-2 px-1 pt-1 hover:bg-blue-100">#{{ tag }}</a>
+    {% endfor %}
+  </h3>
 
   {{ content }}
-
-  <form action="//shubox.us12.list-manage.com/subscribe/post?u=a3a4a889a5f3ff0320a62c23b&amp;id=12b17c8654"
-      method="post"
-      id="mc-embedded-subscribe-form"
-      name="mc-embedded-subscribe-form"
-      class="mt-8 rounded-lg bg-gray-100 p-8 text-center"
-      target="_blank"
-      novalidate>
-
-    <h4 class="mb-4 font-bold text-gray-700">
-      I'm working on something called
-      <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">shubox.io</a>!
-    </h4>
-
-    <p>
-      Want to know more about it? (Answer: "Yes. I do")<br class="hidden md:block">
-      <a href="https://shubox.io?utm_source=joeloliveira&utm_medium=web&utm_campaign=sister_app">Check it</a>
-      out or sign up for my newsletter to receive news,<br class="hidden md:block">
-      announcements and other good bits!
-    </p>
-
-    <div id="mc_embed_signup_scroll">
-      <div class="mc-field-group input">
-        <label for="mce-EMAIL" class="mt-2">your email address: </label>
-        <input type="email" value="" name="EMAIL"
-          class="required email mt-2 rounded border border-solid border-gray-400 text-center" required="true" id="mce-EMAIL"
-          placeholder="example@email.com">
-        <input type="submit" value="subscribe" name="subscribe"
-          id="mc-embedded-subscribe" class="button mt-2 rounded border border-solid border-gray-400 px-4 text-center">
-      </div>
-
-      <div id="mce-responses">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-      </div>
-      <div style="position: absolute; left: -5000px;">
-        <input type="text" name="b_a3a4a889a5f3ff0320a62c23b_12b17c8654"
-          tabindex="-1" value="">
-      </div>
-    </div>
-  </form>
 </article>
 
 <footer class="my-8 flex flex-row items-center justify-center px-4 text-center">
@@ -64,6 +30,9 @@ layout: default
       height="64" />
   </picture>
   <p>
-    Have feedback? These days I am found on Mastodon (<a href="https://ruby.social/@jayroh" class="underline hover:bg-blue-50">@jayroh</a>). Contact me there.
+    Have feedback? These days I am found on Mastodon
+    (<a href="https://ruby.social/@jayroh" class="underline hover:bg-blue-50">@jayroh</a>)<br>
+    or BlueSky (<a href="https://bsky.app/profile/jayroh.bsky.social" class="underline hover:bg-blue-50">@jayroh.bsky.social</a>).
+    Contact me there.
   </p>
 </footer>

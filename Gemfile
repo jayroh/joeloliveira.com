@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gem 'albino'
 gem 'jekyll'
+gem 'jekyll-archives'
 gem 'jekyll-dotenv'
 gem 'jekyll-imgproxy-tag'
 gem 'jekyll-twitter-plugin'
