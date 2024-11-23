@@ -1,30 +1,30 @@
 module.exports = {
   content: [
+    './_layouts/archive.html',
     './_layouts/default.html',
-    './_posts/*.md',
+    './_posts/*.md'
   ],
   theme: {
     extend: {
       colors: {
-        'light-blue-500': '#049CDB',
+        'light-blue-500': '#049CDB'
       },
       fontFamily: {
-        'sans': [
+        sans: [
           '"Roboto-Condensed"',
           '"Gotham"',
           '"Helvetica Neue"',
           'Helvetica',
           'Arial sans-serif'
         ],
-        'mono': [
+        mono: [
           '"Inconsolata"',
           '"Monoco"',
           '"Courier New"',
           'monospace'
         ]
       }
-    },
+    }
   },
   plugins: []
 }
-

@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        '24': '6rem',
+        24: '6rem'
       },
       fontFamily: {
-        'sans': [
+        sans: [
           '"Roboto-Condensed"',
           '"Gotham"',
           '"Helvetica Neue"',
@@ -17,8 +17,7 @@ module.exports = {
           'Arial sans-serif'
         ]
       }
-    },
+    }
   },
   plugins: []
 }
-
