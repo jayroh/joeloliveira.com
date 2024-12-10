@@ -5,8 +5,8 @@ layout: null
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Joel Oliveira</title>
-    <link>https://www.joeloliveira.com/</link>
-    <atom:link href="https://www.joeloliveira.com/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://joeloliveira.com/</link>
+    <atom:link href="https://joeloliveira.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A software engineer in Boston writing mostly ruby. He loves beer and bulldogs and his family.</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -15,10 +15,10 @@ layout: null
       {% if post.category != "shubox" %}
       <item>
         <title>{{ post.title }}</title>
-        <link>https://www.joeloliveira.com{{ post.url }}</link>
+        <link>https://joeloliveira.com{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <author>joel.oliveira@gmail.com (Joel Oliveira)</author>
-        <guid>https://www.joeloliveira.com{{ post.id }}</guid>
+        <guid>https://joeloliveira.com{{ post.id }}</guid>
         <description>{{ post.content | xml_escape }}</description>
       </item>
       {% endif %}

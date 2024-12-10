@@ -4,7 +4,7 @@ plugins:
   - jekyll-imgproxy-tag
   - jekyll-twitter-plugin
   - jekyll-youtube
-url: https://www.joeloliveira.com
+url: https://joeloliveira.com
 name: My name is Joel
 include:
   - _redirects
