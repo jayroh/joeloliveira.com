@@ -47,7 +47,7 @@ module SocialMedia
       @width = DIMENSIONS[social][0]
       @height = DIMENSIONS[social][1]
       @target_file = image_path.send social
-      @title = title.gsub(/'/, '')
+      @title = title.gsub(/'/, '').gsub(/&\#58;/, ':')
     end
 
     def create!

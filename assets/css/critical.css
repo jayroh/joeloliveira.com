@@ -72,7 +72,7 @@
   }
 
   article h1 {
-    @apply text-4xl text-center border-solid border-b border-gray-100 pb-4;
+    @apply text-4xl text-center border-solid border-b border-gray-100 pb-4 text-balance;
   }
 
   article hr {
@@ -117,7 +117,7 @@
   }
 
   .pull-quote {
-    @apply border-l-0 border-b-4 w-4/5 md:w-1/2 md:float-right md:-mr-8 px-8 py-6 m-auto mb-4 md:ml-8 md:mb-0;
+    @apply border-l-0 border-b-4 w-4/5 md:w-1/2 md:float-right md:-mr-8 px-8 py-6 m-auto mb-4 md:ml-8 md:mb-2;
   }
 
   article blockquote p {
@@ -144,6 +144,11 @@
   }
 
   p a:hover {
+    @apply bg-blue-50;
+  }
+
+  sup a {
+    @apply border-none;
     @apply bg-blue-50;
   }
 
