@@ -148,8 +148,15 @@
   }
 
   sup a {
-    @apply border-none;
-    @apply bg-blue-50;
+    @apply border-none bg-blue-50 ml-2;
+  }
+
+  .footnotes {
+    @apply mt-8 pt-8 border-t-2 border-solid border-gray-200;
+  }
+
+  .footnotes p {
+    @apply text-base leading-relaxed;
   }
 
   p:target {

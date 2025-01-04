@@ -12,4 +12,8 @@
   .toggle-year:checked ~ ul {
     @apply max-h-64;
   }
+
+  .footnotes {
+    @apply mt-8 pt-8 border-t-2 border-solid border-gray-200 text-sm;
+  }
 }

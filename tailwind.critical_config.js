@@ -4,6 +4,9 @@ module.exports = {
     './_layouts/default.html',
     './_posts/*.md'
   ],
+  safelist: [
+    'footnotes'
+  ],
   theme: {
     extend: {
       colors: {
