@@ -94,9 +94,9 @@ orbit over the years to beat this into my brain. Alas, I did not. C'est la vie.
 So if you’re reading this, consider the above. Good luck. Look out for #1.
 Keep your receipts. And [let me know how it goes].
 
-[^1]: I worked at this consultancy several lifetimes ago. I was doing good work (as far as I knew) and had several people telling me as much. The challenge at the time was that the department we were in skewed more towards the design/IA/UX side of work at a digital agency, but as a specialist in front-end technology I, and others, were on the fringes and met with an apples vs. oranges, compare-and-contrast, problem. I was not equipped at that time to make the case for myself and outline where my *personal* value and the role's trajectory (from a larger digital evolutionary perspective) was. My memory recalls that I eventually *did* get that promotion, but the glacial turn towards getting there burned me out enough to leave when I could. To be clear, most of that was a product of my inaction and the inability to realize this.
-
 [wunderkind]: https://www.merriam-webster.com/dictionary/wunderkind
 [Lattice]: https://lattice.com/
 [Why I Quite Google to Work for Myself]: https://mtlynch.io/why-i-quit-google/
 [let me know how it goes]: https://bsky.app/profile/jayroh.dev
+
+[^1]: I worked at this consultancy several lifetimes ago. I was doing good work (as far as I knew) and had several people telling me as much. The challenge at the time was that the department we were in skewed more towards the design/IA/UX side of work at a digital agency, but as a specialist in front-end technology I, and others, were on the fringes and met with an apples vs. oranges, compare-and-contrast, problem. I was not equipped at that time to make the case for myself and outline where my *personal* value and the role's trajectory (from a larger digital evolutionary perspective) was. My memory recalls that I eventually *did* get that promotion, but the glacial turn towards getting there burned me out enough to leave when I could. To be clear, most of that was a product of my inaction and the inability to realize this.
