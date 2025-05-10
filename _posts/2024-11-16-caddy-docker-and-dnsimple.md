@@ -76,3 +76,11 @@ services:
 ```
 
 And started with `docker compose up -d`
+
+## Note: Use Caddy v2.9.1 instead of v2.9.10(as of May 9)
+
+Building the DNSimple module with v2.9.10 won't work. It's broken.
+
+```sh
+xcaddy build v2.9.1 --with github.com/caddy-dns/dnsimple
+```
