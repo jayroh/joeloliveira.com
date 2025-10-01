@@ -71,18 +71,19 @@ be small, fun, and light --- not necessarily something that has to "make it big.
 I don't think anyone would ask _me_ for advice. But, if you're wrestling with 
 whether to shut down a project of your own, here's what I'd say:
 
--   Listen to that inner voice; it's usually telling you the truth.
--   Don't measure yourself against other people's expectations. Only you know whether a project is worth your time.
--   Letting go doesn't mean failure. Sometimes it's the most thoughtful, mature decision you can make.
--   You're not giving up on creativity; you're just making space for projects that actually fit your life.
+- Listen to that inner voice; it's usually telling you the truth.
+- Don't measure yourself against other people's expectations. Only you know whether a project is worth your time.
+- Letting go doesn't mean failure. Sometimes it's the most thoughtful, mature decision you can make.
+- You're not giving up on creativity; you're just making space for projects that actually fit your life.
 
 In closing, Shubox will always mean a lot to me. It taught me about building,
-maintaining, and, eventually, ***letting go***. More importantly, it taught me 
-about myself. While Shubox is coming to an end, my creativity and my desire 
+maintaining, and, eventually, ***letting go***. More importantly, [it taught me 
+about myself]. While Shubox is coming to an end, my creativity and my desire 
 to build isn't. It's just shifting into something lighter, more sustainable, 
 and more aligned with where I am today. I'm sure I'll have something else to
 share in the not too distant future.
 
 [nearly nine years]: https://joeloliveira.com/2016/01/06/announcing-shubox-io
 [Ben]: https://island94.org/
+[it taught me about myself]: https://joeloliveira.com/2023/11/14/challenges-in-solopreneurship.html
 
