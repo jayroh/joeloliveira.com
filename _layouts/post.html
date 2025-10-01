@@ -3,36 +3,37 @@ layout: default
 ---
 
 <article>
-  <h1>{{ page.title }}</h1>
-  <h3>
-    {{ page.date | date_to_string }}
+	<h1>{{ page.title }}</h1>
+	<h3>
+		{{ page.date | date_to_string }}
 
-    {% for tag in page.tags %}
-    <span class="inline-block px-4 not-italic text-gray-200">&#10625;</span>
-    <a href="/tag/{{ tag | downcase | slugify }}" class="inline-block border-b-2 border-solid border-blue-200 px-1 pt-1 hover:bg-blue-100">#{{ tag }}</a>
-    {% endfor %}
-  </h3>
+		{% for tag in page.tags %}
+		<span class="inline-block px-4 not-italic text-gray-200">&#10625;</span>
+		<a href="/tag/{{ tag | downcase | slugify }}"
+			class="inline-block border-b-2 border-solid border-blue-200 px-1 pt-1 hover:bg-blue-100">#{{ tag }}</a>
+		{% endfor %}
+	</h3>
 
-  {{ content }}
+	{{ content }}
 </article>
 
 <footer class="my-8 flex flex-row items-center justify-center px-4 text-center">
-  <picture>
-    <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source srcset="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64, format: 'avif' %}" type="image/avif" />
-    <source srcset="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64, format: 'webp' %}" type="image/webp" />
+	<picture>
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+		<source srcset="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64, format: 'avif' %}"
+			type="image/avif" />
+		<source srcset="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64, format: 'webp' %}"
+			type="image/webp" />
 
-    <!--[if IE 9]></video><![endif]-->
-    <img src="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64 %}"
-      class="lazyload mr-4 inline-block rounded-full"
-      alt="A photo of me, Joel Oliveira, smiling."
-      width="64"
-      height="64" />
-  </picture>
-  <p>
-    Have feedback? These days I am found on Mastodon
-    (<a href="https://ruby.social/@jayroh" class="underline hover:bg-blue-50">@jayroh</a>)<br>
-    or BlueSky (<a href="https://bsky.app/profile/jayroh.dev" class="underline hover:bg-blue-50">@jayroh.dev</a>).
-    Contact me there.
-  </p>
+		<!--[if IE 9]></video><![endif]-->
+		<img src="{% imgproxy_url path: '/images/photos/joel.png', width: 64, height: 64 %}"
+			class="lazyload mr-4 inline-block rounded-full" alt="A photo of me, Joel Oliveira, smiling." width="64"
+			height="64" />
+	</picture>
+	<p>
+		Have feedback? These days I am found on Mastodon
+		(<a href="https://ruby.social/@jayroh" class="underline hover:bg-blue-50">@jayroh</a>)<br>
+		or BlueSky (<a href="https://bsky.app/profile/jayroh.dev" class="underline hover:bg-blue-50">@jayroh.dev</a>).
+		Contact me there.
+	</p>
 </footer>

@@ -33,33 +33,33 @@
 		{% assign current_year = site.time | date: "%Y" | plus: 0 %}
 		{% assign years = "" %}
 		{% for i in (2006..current_year) reversed %}
-		{% assign year_str = i | append: "" %}
-		{% if years == "" %}
-		{% assign years = year_str %}
-		{% else %}
-		{% assign years = years | append: "|" | append: year_str %}
-		{% endif %}
+			{% assign year_str = i | append: "" %}
+			{% if years == "" %}
+				{% assign years = year_str %}
+			{% else %}
+				{% assign years = years | append: "|" | append: year_str %}
+			{% endif %}
 		{% endfor %}
 		{% assign years = years | split: "|" %}
 		{% for year in years %}
-		{% assign year_int = year | plus: 0 %}
-		<div class="year">
-			<h2 class="border-b border-stone-500 px-6 py-2 text-lg">
-				<label for="for_{{ year }}" class="cursor-pointer block">{{ year }} / </label>
-			</h2>
+			{% assign year_int = year | plus: 0 %}
+			<div class="year">
+				<h2 class="border-b border-stone-500 px-6 py-2 text-lg">
+					<label for="for_{{ year }}" class="cursor-pointer block">{{ year }} / </label>
+				</h2>
 
-			<input type="checkbox" id="for_{{ year }}" name="for_{{ year }}" class="toggle-year hidden"{% if year_int == current_year %} checked{% endif %}>
+				<input type="checkbox" id="for_{{ year }}" name="for_{{ year }}" class="toggle-year hidden"{% if year_int == current_year %} checked{% endif %}>
 
-			<ul class="block max-h-0 overflow-hidden transition-all duration-200 ease-in">
-				{% for post in site.posts %}
-				{% capture post_year %}{{post.date | date: "%Y"}}{% endcapture %}
-				{% capture post_date %}{{post.date | date: "%b %d" }}{% endcapture %}
-				{% if post_year == year %}
-				<li><a href="{{ post.url }}" class="border-stone-600 block px-6 py-1 text-sm hover:bg-zinc-900">{{ post_date }} / {{ post.title }}</a></li>
-				{% endif %}
-				{% endfor %}
-			</ul>
-		</div>
+				<ul class="block max-h-0 overflow-hidden transition-all duration-200 ease-in">
+					{% for post in site.posts %}
+						{% capture post_year %}{{post.date | date: "%Y"}}{% endcapture %}
+						{% capture post_date %}{{post.date | date: "%b %d" }}{% endcapture %}
+						{% if post_year == year %}
+							<li><a href="{{ post.url }}" class="border-stone-600 block px-6 py-1 text-sm hover:bg-zinc-900">{{ post_date }} / {{ post.title }}</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
 		{% endfor %}
 
 		<div class="fin"></div>
