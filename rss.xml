@@ -12,7 +12,6 @@ layout: null
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     {% for post in site.posts %}
-      {% if post.category != "shubox" %}
       <item>
         <title>{{ post.title }}</title>
         <link>https://joeloliveira.com{{ post.url }}</link>
@@ -21,7 +20,6 @@ layout: null
         <guid>https://joeloliveira.com{{ post.id }}</guid>
         <description>{{ post.content | xml_escape }}</description>
       </item>
-      {% endif %}
     {% endfor %}
   </channel>
 </rss>
