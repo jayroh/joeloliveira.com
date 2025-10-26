@@ -43,3 +43,5 @@ It's fun. It's refreshing. It's educational. It's productive.
 
 It's not perfect, but it doesn't need to be. It just needs to do that dumb
 thing in Slack for me and my friends.
+
+(*Note:* not a word of this was written or edited with "AI".)
