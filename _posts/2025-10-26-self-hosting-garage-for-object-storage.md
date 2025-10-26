@@ -29,8 +29,8 @@ photo: ./images/photos/garage.jpg
   </figcaption>
 </figure>
 
-Due to the work on [Shubox](https://shubox.io) over the years block storage had become an interesting little corner 
-that I've enjoyed researching. I had already played with [minio](/2024/10/06/play-with-minio) and found it
+Due to the work on [Shubox](https://shubox.io) block storage had become an interesting little corner 
+that I've enjoyed researching. I had previously played with [minio](/2024/10/06/play-with-minio) and found it
 to be _fine_. Recently, the maintainers of Minio had [decided to change directions](https://www.reddit.com/r/selfhosted/search/?q=minio) in how "open"
 they wanted to make their "open source" product. That's fine. With the velocity and severity of these
 changes, though, it made sense to take a look at something that doesn't risk having an even more severe 
@@ -38,12 +38,9 @@ rug-pull moment. Hence - [garage](https://garagehq.deuxfleurs.fr).
 
 ## Up and running with Garage
 
-Docker compose is my usual method for spinning up services in-house. For this experiment I decided
-to try both the main service and the [garage-webui](https://github.com/khairul169/garage-webui) project up and running together.
+Docker compose is my preferred method for spinning up services in-house. For this experiment I decided to try both Garage _and_ [garage-webui](https://github.com/khairul169/garage-webui) together. Keep in mind that this is a single node installation, no replication. Just one machine, one instance.
 
-One constraint - this is a single node installation, no replication. Just one machine, one instance.
-
-Here's a pretty base compose setup to do so:
+That said, here's a simple config in a `compose.yml` file to get things going:
 
 ```yaml
 services:
@@ -115,7 +112,7 @@ A quick `docker compose up -d` will get that up and running.
 
 ## Create a cluster layout
 
-While it may be up and running, you'll still need to allocate the disk space (layout) for Garage.
+While it may be up and running, you will still need to allocate the disk space (layout) for Garage.
 Here's how:
 
 ```sh
