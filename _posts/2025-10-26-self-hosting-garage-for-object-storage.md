@@ -138,6 +138,6 @@ garage layout apply --version 1
 ## Check your work
 
 At this point you should be able to visit `http://[host-ip]:3909`, see Garage-webui, create buckets &amp; keys, etc.
-Beyond that, you should install an s3 client like (awscli)[https://github.com/aws/aws-cli], (mc)[https://github.com/minio/mc], or (s5cmd)[https://github.com/peak/s5cmd] to test your buckets with whatever key and secret you've created via `garage-webui`.
+Beyond that, you should install an s3 client like [awscli](https://github.com/aws/aws-cli), [mc](https://github.com/minio/mc), or [s5cmd](https://github.com/peak/s5cmd) to test your buckets with whatever key and secret you've created via `garage-webui`.
 
 Enjoy! 🛠️️
