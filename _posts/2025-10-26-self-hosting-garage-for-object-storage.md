@@ -29,7 +29,7 @@ photo: ./images/photos/garage.jpg
   </figcaption>
 </figure>
 
-Due to the work on Shubox over the years block storage had become an interesting little corner 
+Due to the work on [Shubox](https://shubox.io) over the years block storage had become an interesting little corner 
 that I've enjoyed researching. I had already played with [minio](/2024/10/06/play-with-minio) and found it
 to be _fine_. Recently, the maintainers of Minio had [decided to change directions](https://www.reddit.com/r/selfhosted/search/?q=minio) in how "open"
 they wanted to make their "open source" product. That's fine. With the velocity and severity of these
